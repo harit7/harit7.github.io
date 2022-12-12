@@ -1,0 +1,14 @@
+<div>
+    <div class="d-flex">
+        {% for social in site.data.socials %}
+        <a href="{{ social.profileUrl }}" target="_blank">
+          <div class="d-flex align-items-center">
+            <div class="pe-1">
+                {%- include icons/google-scholar.html -%}
+            </div>
+            <div class="pe-3">{{ social.website }}</div>
+          </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>

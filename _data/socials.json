@@ -1,17 +1,17 @@
 [
   {
-    "website": "Fandom",
-    "profileUrl": "https://kungfupanda.fandom.com/wiki/Shifu",
-    "icon": "/assets/icons/fandom.svg"
+    "website": "Google Scholar",
+    "profileUrl": "https://scholar.google.com/citations?hl=en&user=pJF_ZZUAAAAJ&view_op=list_works&sortby=pubdate",
+    "icon": "google-scholar"
   },
   {
-    "website": "Wikipedia",
-    "profileUrl": "https://en.wikipedia.org/wiki/Shifu",
-    "icon": "/assets/icons/wikipedia.svg"
+    "website": "Twitter",
+    "profileUrl": "https://twitter.com/harit_v",
+    "icon": "twitter"
   },
   {
-    "website": "Google",
-    "profileUrl": "https://www.google.com/search?q=Master+Shifu",
-    "icon": "/assets/icons/google-scholar.svg"
+    "website": "Github",
+    "profileUrl": "https://github.com/harit7",
+    "icon": "github"
   }
 ]

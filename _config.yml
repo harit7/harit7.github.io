@@ -18,12 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Master Shifu
-email: shifu@jadepalace.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Master Shifu is one of the main supporting characters of the Kung Fu Panda franchise. 
-  He is the current senior master of the Jade Palace and trainer of many kung fu warriors, 
-  including Po (the Dragon Warrior), the Furious Five, and Tai Lung.
+title: Harit Vishwakarma
+email: hvishwakarma@cs.wisc.edu
+description: CS PhD Student at UW Madison
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

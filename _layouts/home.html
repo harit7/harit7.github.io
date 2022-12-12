@@ -5,17 +5,13 @@ layout: default
   <div class="pt-3">
     <div class="row align-items-center">
       <div class="col-sm-12 col-lg-auto text-center">
-        {% assign imageUrl = "assets/images/profile-image.webp" %}
-        <img
-          class="img-fluid avatar"
-          src="{{ imageUrl | relative_url }}"
-          alt="{{ site.title }}"
-        />
+        {% assign imageUrl = "assets/images/profile-image.jpg" %}
+        <img class="img-fluid avatar" src="{{ imageUrl | relative_url }}" alt="{{ site.title }}" />
       </div>
 
       <div class="col-auto">
-        <h2>Master Shifu</h2>
-        <h6 class="fst-italic">Senior Master, The Jade Palace</h6>
+        <h2>{{ site.title }}</h2>
+        <h6 class="fst-italic">{{ site.description }}</h6>
         <h6 class="fst-italic text-muted">
           <a href="mailto:{{ site.email }}">
             <span>
@@ -28,180 +24,184 @@ layout: default
           <span>
             {%- include icons/location-icon.html -%}
           </span>
-          <span>Jade Palace, Valley of Peace </span>
+          <span>Madison, WI</span>
         </h6>
-        <div class="d-flex">
-          {% for social in site.data.socials %}
-          <a href="{{ social.profileUrl }}" target="_blank">
-            <div class="d-flex align-items-center">
-              <div class="pe-1">
-                <img
-                  width="20px"
-                  height="20px"
-                  src="{{ social.icon | relative_url}}"
-                  alt="{{ social.website }}"
-                />
-              </div>
-              <div class="pe-3">{{ social.website }}</div>
-            </div>
-          </a>
-          {% endfor %}
-        </div>
+        {%- include socials.html -%}
       </div>
     </div>
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize" >About Master Shifu</h3>
+    <h3 class="text-capitalize">About Me</h3>
     <div class="pt-2">
       <div class="indent">
-        <p>
-          A former student of 
-          <a href="https://kungfupanda.fandom.com/wiki/Oogway" target="_blank"> 
-            <span class="highlight">Master Oogway</span>
-          </a>, 
-          Shifu became a highly skilled
-          master of kung fu who hoped that his first student, Tai Lung, would
-          become the legendary Dragon Warrior. Some time after Tai Lung's
-          betrayal, however, Shifu went on to train
+        <p class="fs-5">
+          Hi there, I am a Computer Science PhD student at the
 
-          <a href="https://kungfupanda.fandom.com/wiki/Tigress" target="_blank"> 
-            <span class="highlight">Tigress</span>
-          </a>,
-          <a href="https://kungfupanda.fandom.com/wiki/Tigress" target="_blank"> 
-            <span class="highlight">Mantis</span>
-          </a>,
-          <a href="https://kungfupanda.fandom.com/wiki/Tigress" target="_blank"> 
-            <span class="highlight">Monkey</span>
-          </a>,
-          <a href="https://kungfupanda.fandom.com/wiki/Tigress" target="_blank"> 
-            <span class="highlight">Viper</span>
-          </a>,
-          and
-          <a href="https://kungfupanda.fandom.com/wiki/Tigress" target="_blank"> 
-            <span class="highlight">Crane</span>
-          </a>, 
-          the Furious Five. Though these students became
-          well-known for their heroics, none of them were selected to be the
-          Dragon Warrior, and Shifu was outraged when Po was chosen instead.
-          Witnessing the panda's potential and determination however, Shifu
-          eventually came to believe in him, successfully teaching 
+          <a href="https://www.cs.wisc.edu/" target="_blank"><span class="highlight">University of Wisconsin-Madison</span></a>. I am grateful to have
 
-          <a href="https://kungfupanda.fandom.com/wiki/Po" target="_blank"> 
-            <span class="highlight">Po</span>
+          <a href="https://pages.cs.wisc.edu/~fredsala/" target="_blank">
+            <span class="highlight">prof. Frederic Sala</span>
           </a>
-          the skills
-          needed for him to ultimately save the 
-          <a href="https://kungfupanda.fandom.com/wiki/Valley_of_Peace" target="_blank"> 
-            <span class="highlight">Valley of Peace</span>
-          </a>, 
-          Valley of Peace. He now acts as
-          both a friend and mentor to Po.
+          and
+          <a href="https://ramyakv.github.io/" target="_blank">
+            <span class="highlight"> prof. Ramya K. Vinayak</span>
+          </a>
+
+          as my advisors.
+          My research interests are in machine learning theory, particularly in settings where
+          labeled data are scarce and noisy. Before coming to Madison I worked at
+          <a href="https://research.ibm.com/labs/india/" target="_blank"><span class="highlight">IBM Research</span></a>,
+          India and spent two wonderful years at
+          <a href="https://iisc.ac.in/" target="_blank">
+            <span class="highlight">IISc Bangalore</span>
+          </a>
+
+          to obtain my masters in CS.
         </p>
       </div>
     </div>
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize" >Fighting Style</h3>
+    <h3 class="text-capitalize">Research Interests</h3>
     <div class="pt-2">
       <div class="indent">
-        <h5>— Powerful</h5>
-        <h5>— Focused</h5>
-        <h5>— Precise</h5>
+        <h5>— Weak Supervision, Active Learning, Auto Labeling.</h5>
+        <h5>— non-Euclidean ML.</h5>
+        <h5>— Understanding deep learning.</h5>
+        <h5>— Meaning of life :)</h5>
       </div>
     </div>
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize" >Biography</h3>
+    <h3 class="text-capitalize">Publications</h3>
     <div class="pt-2">
       <div class="indent indent-border action">
-        <a
-          href="https://kungfupanda.fandom.com/wiki/Shifu#Escape_of_Tai_Lung"
-          target="_blank"
-        >
-          <h5 class="text-capitalize">Escape of Tai Lung</h5>
+        <a href="https://arxiv.org/abs/2211.13375" target="_blank">
+          <h5 class="text-capitalize">Lifting Weak Supervision to Structured Prediction</h5>
           <h6>
-            The relatively peaceful lull came to a halt when Oogway summoned
-            Shifu, saying that he had a vision of Tai Lung returning to the
-            Valley of Peace
+            Harit Vishwakarma, Nicholas Roberts, Frederic Sala
           </h6>
-          <h6 class="text-muted">— Kung Fu Panda, 11 July 2008</h6>
+          <h6 class="text-muted">— Neural Information Processing Systems (NeurIPS), 2022</h6>
         </a>
       </div>
     </div>
     <div class="pt-2">
       <div class="indent indent-border action">
-        <a
-          href="https://kungfupanda.fandom.com/wiki/Shifu#Trying_to_get_rid_of_Po"
-          target="_blank"
-        >
-          <h5 class="text-capitalize">Trying to get rid of Po</h5>
+        <a href="https://arxiv.org/abs/2211.12620" target="_blank">
+          <h5 class="text-capitalize">Good Data from Bad Models : Foundations of Threshold-based Auto-labeling</h5>
           <h6>
-            He determined that he would prove that Po wasn't the true Dragon
-            Warrior by treating him to many punishing "exercises", believing the
-            panda would swiftly bow under the stress and quit by morning
+            Harit Vishwakarma, Heguang Lin, Frederic Sala, Ramya K. Vinayak
           </h6>
-          <h6 class="text-muted">— Kung Fu Panda, 11 July 2008</h6>
+          <h6 class="text-muted">— Preprint, 2022</h6>
         </a>
       </div>
     </div>
     <div class="pt-2">
       <div class="indent indent-border action">
-        <a
-          href="https://kungfupanda.fandom.com/wiki/Shifu#Training_Po"
-          target="_blank"
-        >
-          <h5 class="text-capitalize">Training Po</h5>
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Training_Po" target="_blank">
+          <h5 class="text-capitalize">Adaptive Out-of-Distribution Detection with Human-in-the-Loop</h5>
           <h6>
-            Realizing that the key to teaching Po was through proper motivation
-            (food), he proceeded to take Po to the Wu Dan Mountains and lifted
-            the panda's spirits by simply asserting he had faith in him for the
-            attempt.
+            Harit Vishwakarma, Heguang Lin, Ramya K. Vinayak 
           </h6>
-          <h6 class="text-muted">— Kung Fu Panda, 11 July 2008</h6>
+          <h6 class="text-muted">— ICML Workshop on Human Machine Collaboration and Teaming, 2022</h6>
         </a>
       </div>
     </div>
+
     <div class="pt-2">
       <div class="indent indent-border action">
-        <a
-          href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung"
-          target="_blank"
-        >
-          <h5 class="text-capitalize">Arrival of Tai Lung</h5>
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung" target="_blank">
+          <h5 class="text-capitalize">Universalizing weak supervision</h5>
           <h6>
-            Tai Lung went on a furious rampage across the Valley of Peace,
-            ravaging the Valley and its citizens before rushing back to the Jade
-            Palace to take the Dragon Scroll by force.
+            Changho Shin, Winfred Li, Harit Vishwakarma, Nicholas Roberts, Frederic Sala 
           </h6>
-          <h6 class="text-muted">— Kung Fu Panda, 11 July 2008</h6>
+          <h6 class="text-muted">— International Conference on Learning Representations (ICLR), 2022</h6>
         </a>
       </div>
     </div>
+
+    <div class="pt-2">
+      <div class="indent indent-border action">
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung" target="_blank">
+          <h5 class="text-capitalize">Optimal lottery tickets via subsetsum: Logarithmic over-parameterization is sufficient</h5>
+          <h6>
+            Ankit Pensia, Shashank Rajput, Alliot Nagle, Harit Vishwakarma, Dimitris Papailiopoulos
+          </h6>
+          <h6 class="text-muted">— Neural Information Processing Systems (NeurIPS), 2020 ( Spotlight )</h6>
+        </a>
+      </div>
+    </div>
+
+    <div class="pt-2">
+      <div class="indent indent-border action">
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung" target="_blank">
+          <h5 class="text-capitalize">Attack of the tails: Yes, you really can backdoor federated learning</h5>
+          <h6>
+            H. Wang, K. Sreenivasan, S. Rajput, H. Vishwakarma, S. Agarwal, J. Sohn, K. Lee, D. Papailiopoulos 
+          </h6>
+          <h6 class="text-muted">— Neural Information Processing Systems (NeurIPS), 2020</h6>
+        </a>
+      </div>
+    </div>
+
+    <div class="pt-2">
+      <div class="indent indent-border action">
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung" target="_blank">
+          <h5 class="text-capitalize">Quantum embedding of knowledge for reasoning</h5>
+          <h6>
+            D. Garg, S. Ikbal, S. K Srivastava, H. Vishwakarma, H. Karnam, L. V. Subramaniam
+          </h6>
+          <h6 class="text-muted">— Neural Information Processing Systems (NeurIPS), 2019</h6>
+        </a>
+      </div>
+    </div>
+
+    <div class="pt-2">
+      <div class="indent indent-border action">
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung" target="_blank">
+          <h5 class="text-capitalize">Know Thy Neighbors, and More! Studying the Role of Context in Entity Recommendation</h5>
+          <h6>
+            Sumit Bhatia, Harit Vishwakarma 
+          </h6>
+          <h6 class="text-muted">— ACM Conference on HyperText and Social Media (HT), 2018 ( Best Paper Nominee )</h6>
+        </a>
+      </div>
+    </div>
+
+    <div class="pt-2">
+      <div class="indent indent-border action">
+        <a href="https://kungfupanda.fandom.com/wiki/Shifu#Arrival_of_Tai_Lung" target="_blank">
+          <h5 class="text-capitalize">Discovering Granger causality in the presence of correlated event streams</h5>
+          <h6>
+            Harit Vishwakarma, Raman Sankaran, Chiranjib Bhattacharyya  
+          </h6>
+          <h6 class="text-muted">— Manuscript, 2017</h6>
+        </a>
+      </div>
+    </div>
+
     <div class="pt-2">
       <p class="text-end">
-        Read more about Master Shifu on <a href="https://kungfupanda.fandom.com/wiki/Shifu#Biography">
+        You can also find my articles on my 
+        <a href="https://scholar.google.com/citations?hl=en&user=pJF_ZZUAAAAJ&view_op=list_works&sortby=pubdate">
           <span class="highlight">
-            Fandom
+            Google Scholar 
           </span>
         </a>
+        profile.
       </p>
     </div>
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize">Personality</h3>
+    <h3 class="text-capitalize">Miscelleneous</h3>
     <div class="pt-2">
       <div class="indent">
         <p>
-          — Master Shifu was seen as a loving father and devoted teacher to a
-          young Tai Lung when the cub first showed up.
-        </p>
-        <p>
-          — He also appears to have a bit of a devious side, and before
-          befriending Po, was shown to have a cruel sense of humor.
+          — I love playing badminton, racquetball and chess.
         </p>
       </div>
     </div>
