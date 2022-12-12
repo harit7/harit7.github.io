@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="row justify-content-center">
+    <div class="col-md-10">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <span class="navbar-title">
+              {{ site.title }}
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              {% for menu in site.data.menu %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ menu.link }}">
+                    <span class="navbar-menu">{{ menu.label }}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>

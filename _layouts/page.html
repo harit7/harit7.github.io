@@ -1,0 +1,73 @@
+---
+layout: default
+---
+<div>
+  <h3>Blog Posts</h3>
+  {% if paginator.posts %}
+   <div>
+    {% for post in paginator.posts %}
+    <div class="pt-3">
+      <div class="indent indent-border action">
+        <a href="{{ post.url }}">
+          <div class="row align-items-center">
+            {% if post.imageUrl %}
+            <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4 align-self-stretch pe-3">
+              <img class="img-fluid h-100 rounded-3" src="{{ post.imageUrl }}" />
+            </div>
+            {% endif %}
+            <div class="col">
+              <h4 class="text-capitalize">{{ post.title }}</h4>
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 300 }}</p>
+              <h6 class="text-muted">
+                — {{site.title}}, {{ post.date | date_to_string }}
+              </h6>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+    <div>
+      <div class="row justify-content-center pt-5 pb-3">
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between">
+            <div>
+              {% if paginator.previous_page %}
+              <h5>
+                <a href="{{ paginator.previous_page_path }}">
+                  « Previous
+                </a>
+              </h5>
+              {% else %}
+              <h5 class="text-muted">
+                « Previous
+              </h5>
+              {% endif %}
+            </div>
+            <div>
+              <h5>
+                {{ paginator.page }} / {{ paginator.total_pages }}
+              </h5>
+            </div>
+            <div>
+              {% if paginator.next_page %}
+              <h5>
+                <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
+              </h5>
+              {% else %}
+              <h5 class="text-muted">
+                Next »
+              </h5>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  {% else %}
+    <div>
+      Coming Soon...
+    </div>
+  {% endif %}
+</div>

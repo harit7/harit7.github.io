@@ -1,0 +1,104 @@
+@import "vars";
+@import "bootstrap/scss/bootstrap";
+
+
+$primary: #051847;
+$light-blue: #0082e4;
+$light: #FFF;
+
+// $primary: #FFF;
+// $light-blue: #0082e4;
+// $light: #051847;
+
+body {
+  height: 100vh;
+  width: 100%;
+  color: $primary;
+  background-color: $light;
+  background: $light;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+  fill: $primary;
+  &:hover {
+    color: $primary;
+  }
+}
+
+.container-fluid {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.img-fluid {
+  object-position: center;
+  object-fit: cover;
+}
+
+.text-muted {
+  color: rgba($primary, 0.5) !important;
+  fill: rgba($primary, 0.5) !important;
+}
+
+.navbar-brand, .nav-link {
+  color: $primary !important;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  ::after {
+    display: block;
+    content: "";
+    background: $primary;
+    height: 0.3rem;
+    width: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  &:hover {
+    ::after {
+      width: 100%;
+    }
+  }
+}
+
+.site-header {
+  padding: 0 1rem 0 1rem;
+  border-bottom: 0.1rem solid rgba($primary, 0.05);
+  background: rgba($primary, 0.01);
+}
+.site-main {
+  padding: 0 1rem 1rem 1rem;
+  background: rgba(5, 24, 71, 0.02);
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 0.3rem solid $primary;
+}
+
+.indent {
+  padding-left: 1rem;
+  transition: all .1s ease-in-out;
+  &.indent-border {
+    border-left: 0.3rem solid $primary;
+  }  
+  &.action {
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}
+
+
+.footer-main {
+  border-top: 0.1rem solid rgba($primary, 0.05);
+  background: rgba($primary, 0.01);
+}
+
+
+.highlight {
+  color: $light-blue;
+}

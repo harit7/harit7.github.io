@@ -1,0 +1,17 @@
+$dark: #161617;
+
+$light: #242425;
+
+$red: #E5194d;
+
+$white: #FFFFFF;
+
+$radius: 1rem;
+
+$primary: $red;
+
+$theme-colors: (
+  "primary": $primary,
+  "dark": $dark
+  // "danger": $danger
+);

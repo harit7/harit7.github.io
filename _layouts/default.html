@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+  {%- include head.html -%}
+  <body>
+    <div
+      class="container-fluid h-100 d-flex flex-column justify-content-between"
+    >
+      {%- include header.html -%}
+      <div class="site-main flex-grow-1">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-10 col-lg-10 col-xl-8 pt-3">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+      {%- include footer.html -%}
+    </div>
+  </body>
+</html>

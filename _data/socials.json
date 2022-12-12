@@ -1,0 +1,17 @@
+[
+  {
+    "website": "Fandom",
+    "profileUrl": "https://kungfupanda.fandom.com/wiki/Shifu",
+    "icon": "/assets/icons/fandom.svg"
+  },
+  {
+    "website": "Wikipedia",
+    "profileUrl": "https://en.wikipedia.org/wiki/Shifu",
+    "icon": "/assets/icons/wikipedia.svg"
+  },
+  {
+    "website": "Google",
+    "profileUrl": "https://www.google.com/search?q=Master+Shifu",
+    "icon": "/assets/icons/google-scholar.svg"
+  }
+]
