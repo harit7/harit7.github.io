@@ -68,10 +68,14 @@
         "date": "2020-06-01",
         "award": "Spotlight",
         "links": [
+            { "label" : "arXiv",
+              "url"  : "https://arxiv.org/pdf/2006.07990.pdf"
+            },
             {
                 "label": "NeurIPS",
                 "url": "https://proceedings.neurips.cc/paper/2020/file/1b742ae215adf18b75449c6e272fd92d-Paper.pdf"
             }
+
         ]
     },
     {
