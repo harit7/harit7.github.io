@@ -8,6 +8,13 @@
             {
                 "label": "arXiv",
                 "url": "https://arxiv.org/abs/2211.13375"
+            },
+            { "label": "NeurIPS",
+              "url" : "https://openreview.net/forum?id=Cntmos_Ndf0"
+            },
+            
+            { "label": "code",
+              "url" : "https://github.com/SprocketLab/WS-Structured-Prediction"
             }
         ]
     },
@@ -44,6 +51,13 @@
             {
                 "label": "arXiv",
                 "url": "https://arxiv.org/abs/2112.03865"
+            },
+            { 
+                "label":"ICLR",
+                "url": "https://openreview.net/forum?id=YpPiNigTzMT"
+            },
+            { "label" : "code",
+              "url" : "https://github.com/SprocketLab/universalizing-weak-supervision"
             }
         ]
     },
@@ -69,6 +83,9 @@
             {
                 "label": "NeurIPS",
                 "url": "https://proceedings.neurips.cc/paper/2020/file/b8ffa41d4e492f0fad2f13e29e1762eb-Paper.pdf"
+            },
+            { "label" : "code",
+              "url" : "https://github.com/ksreenivasan/OOD_Federated_Learning"
             }
         ]
     },
