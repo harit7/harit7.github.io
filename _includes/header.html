@@ -1,18 +1,18 @@
 <header class="site-header">
   <div class="row justify-content-center">
-    <div class="col-md-8">
+    <div class="col-sm-12 col-md-10 col-lg-8 col-xl-7">
       <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand invisible" href="/">
             <span class="navbar-title">
-              {{ site.title }}
+              {% include icons/home.html %}
             </span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               {% for menu in site.data.menu %}
                 <li class="nav-item">

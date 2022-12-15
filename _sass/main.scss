@@ -55,6 +55,9 @@ a {
     width: 0;
     transition: all 0.5s ease-in-out;
   }
+}
+
+.nav-link {
   &:hover {
     ::after {
       width: 100%;
@@ -75,8 +78,8 @@ a {
 .avatar {
   height: 220px;
   width: 220px;
-  border-radius: 50%;
-  border: 0.3rem solid $primary;
+  border-radius: 0.5rem;
+  // border: 0.2rem solid $primary;
 }
 
 .indent {

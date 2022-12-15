@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Lifting Weak Supervision To Structured Prediction",
+        "authors": "<span class=\"text-decoration-underline\"><span class=\"text-decoration-underline\">Harit Vishwakarma</span></span>, Nicholas Roberts, Frederic Sala",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2022-11-24",
+        "links": [
+            {
+                "label": "arXiv",
+                "url": "https://arxiv.org/abs/2211.13375"
+            }
+        ]
+    },
+    {
+        "title": "Good Data from Bad Models : Foundations of Threshold-based Auto-labeling",
+        "authors": "<span class=\"text-decoration-underline\">Harit Vishwakarma</span>, Heguang Lin, Frederic Sala, Ramya K. Vinayak",
+        "venue": "Preprint",
+        "date": "2022-11-22",
+        "links": [
+            {
+                "label": "arXiv",
+                "url": "https://arxiv.org/abs/2211.12620"
+            }
+        ]
+    },
+    {
+        "title": "Adaptive Out-of-Distribution Detection with Human-in-the-Loop",
+        "authors": "<span class=\"text-decoration-underline\">Harit Vishwakarma</span>, Heguang Lin, Ramya K. Vinayak",
+        "venue": "ICML Workshop on Human Machine Collaboration and Teaming",
+        "date": "2022-07-01",
+        "links": [
+            {
+                "label": "Paper",
+                "url": "https://ramyakv.github.io/Adaptive-OOD-Detection-Human-in-the-loop.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Universalizing weak supervision",
+        "authors": "Changho Shin, Winfred Li, <span class=\"text-decoration-underline\">Harit Vishwakarma</span>, Nicholas Roberts, Frederic Sala",
+        "venue": "International Conference on Learning Representations (ICLR)",
+        "date": "2022-01-01",
+        "links": [
+            {
+                "label": "arXiv",
+                "url": "https://arxiv.org/abs/2112.03865"
+            }
+        ]
+    },
+    {
+        "title": "Optimal lottery tickets via subsetsum: Logarithmic over-parameterization is sufficient",
+        "authors": "Ankit Pensia, Shashank Rajput, Alliot Nagle, <span class=\"text-decoration-underline\">Harit Vishwakarma</span>, Dimitris Papailiopoulos",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2020-06-01",
+        "award": "Spotlight",
+        "links": [
+            {
+                "label": "NeurIPS",
+                "url": "https://proceedings.neurips.cc/paper/2020/file/1b742ae215adf18b75449c6e272fd92d-Paper.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Attack of the tails: Yes, you really can backdoor federated learning",
+        "authors": "H. Wang, K. Sreenivasan, S. Rajput, <span class=\"text-decoration-underline\">H. Vishwakarma</span>, S. Agarwal, J. Sohn, K. Lee, D. Papailiopoulos",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2020-06-01",
+        "links": [
+            {
+                "label": "NeurIPS",
+                "url": "https://proceedings.neurips.cc/paper/2020/file/b8ffa41d4e492f0fad2f13e29e1762eb-Paper.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Quantum embedding of knowledge for reasoning",
+        "authors": "D. Garg, S. Ikbal, S. K Srivastava, <span class=\"text-decoration-underline\">H. Vishwakarma</span>, H. Karnam, L. V. Subramaniam",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2019-01-01",
+        "links": [
+            {
+                "label": "NeurIPS",
+                "url": "https://proceedings.neurips.cc/paper/2019/file/cb12d7f933e7d102c52231bf62b8a678-Paper.pdf"
+            }
+        ]
+    },
+    {
+        "title": "Know Thy Neighbors, and More! Studying the Role of Context in Entity Recommendation",
+        "authors": "Sumit Bhatia, <span class=\"text-decoration-underline\">Harit Vishwakarma</span>",
+        "venue": "ACM Conference on HyperText and Social Media (HT)",
+        "date": "2018-01-01",
+        "award": "Best Paper Nominee",
+        "links": [
+            {
+                "label": "ACM",
+                "url": "https://dl.acm.org/doi/abs/10.1145/3209542.3209548"
+            }
+        ]
+    },
+    {
+        "title": "Discovering Granger causality in the presence of correlated event streams",
+        "authors": "<span class=\"text-decoration-underline\">Harit Vishwakarma</span>, Raman Sankaran, Chiranjib Bhattacharyya",
+        "venue": "Manuscript",
+        "date": "2017-01-01",
+        "links": []
+    }
+]
