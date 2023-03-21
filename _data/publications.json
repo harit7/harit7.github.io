@@ -2,7 +2,7 @@
     {
         "title": "ScriptoriumWS: A Code Generation Assistant for Weak Supervision",
         "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, <span class=\"text-decoration-underline\"><span class=\"text-decoration-underline\">Harit Vishwakarma</span></span>, Nicholas Roberts, Frederic Sala",
-        "venue": "Deep Learning for Code (DL4C) Workshop at ICLR, 2023",
+        "venue": "Deep Learning for Code (DL4C) Workshop at ICLR",
         "date": "2023-03-20",
         "links": [
             { "label": "ICLR DL4C Worskshop",
