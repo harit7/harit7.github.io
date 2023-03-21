@@ -1,16 +1,30 @@
-[
+[   
+    {
+        "title": "ScriptoriumWS: A Code Generation Assistant for Weak Supervision",
+        "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, <span class=\"text-decoration-underline\"><span class=\"text-decoration-underline\">Harit Vishwakarma</span></span>, Nicholas Roberts, Frederic Sala",
+        "venue": "Deep Learning for Code (DL4C) Workshop at ICLR, 2023",
+        "date": "2023-03-20",
+        "links": [
+            { "label": "ICLR DL4C Worskshop",
+              "url" : "https://openreview.net/forum?id=Cntmos_Ndf0"
+            }
+        ]
+    },
+
     {
         "title": "Lifting Weak Supervision To Structured Prediction",
         "authors": "<span class=\"text-decoration-underline\"><span class=\"text-decoration-underline\">Harit Vishwakarma</span></span>, Nicholas Roberts, Frederic Sala",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2022-11-24",
         "links": [
+            
+            { "label": "NeurIPS",
+            "url" : "https://openreview.net/forum?id=Cntmos_Ndf0"
+            },
+
             {
                 "label": "arXiv",
                 "url": "https://arxiv.org/abs/2211.13375"
-            },
-            { "label": "NeurIPS",
-              "url" : "https://openreview.net/forum?id=Cntmos_Ndf0"
             },
             
             { "label": "code",
@@ -37,7 +51,7 @@
         "date": "2022-07-01",
         "links": [
             {
-                "label": "Paper",
+                "label": "ICML HMCAT Workshop",
                 "url": "https://ramyakv.github.io/Adaptive-OOD-Detection-Human-in-the-loop.pdf"
             }
         ]
@@ -48,14 +62,15 @@
         "venue": "International Conference on Learning Representations (ICLR)",
         "date": "2022-01-01",
         "links": [
-            {
-                "label": "arXiv",
-                "url": "https://arxiv.org/abs/2112.03865"
-            },
             { 
                 "label":"ICLR",
                 "url": "https://openreview.net/forum?id=YpPiNigTzMT"
             },
+            {
+                "label": "arXiv",
+                "url": "https://arxiv.org/abs/2112.03865"
+            },
+
             { "label" : "code",
               "url" : "https://github.com/SprocketLab/universalizing-weak-supervision"
             }
@@ -68,12 +83,12 @@
         "date": "2020-06-01",
         "award": "Spotlight",
         "links": [
-            { "label" : "arXiv",
-              "url"  : "https://arxiv.org/pdf/2006.07990.pdf"
-            },
             {
                 "label": "NeurIPS",
                 "url": "https://proceedings.neurips.cc/paper/2020/file/1b742ae215adf18b75449c6e272fd92d-Paper.pdf"
+            },
+            { "label" : "arXiv",
+              "url"  : "https://arxiv.org/pdf/2006.07990.pdf"
             }
 
         ]
@@ -113,7 +128,7 @@
         "award": "Best Paper Nominee",
         "links": [
             {
-                "label": "ACM",
+                "label": "ACM HyperText",
                 "url": "https://dl.acm.org/doi/abs/10.1145/3209542.3209548"
             }
         ]
