@@ -32,10 +32,10 @@ layout: default
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize">About Me</h3>
+    <h4 class="text-capitalize">About Me</h4>
     <div class="pt-2">
       <div class="indent">
-        <p class="fs-5">
+        <p class="fs-6">
            I am a Computer Science PhD student at the
 
           <a href="https://www.cs.wisc.edu/" target="_blank"><span class="highlight">University of Wisconsin-Madison</span></a>. I am grateful to have
@@ -64,18 +64,18 @@ layout: default
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize">Research Interests</h3>
+    <h4 class="text-capitalize">Research Interests</h4>
     <div class="pt-2">
       <div class="indent">
-        <h5>— Weak Supervision, Active Learning, Auto Labeling.</h5>
-        <h5>— Understanding Deep Learning.</h5>
-        <h5>— Representation Learning and non-Euclidean ML</h5>
+        <h6>— Weak Supervision, Active Learning, Auto Labeling.</h6>
+        <h6>— Understanding Deep Learning.</h6>
+        <h6>— Representation Learning and non-Euclidean ML</h6>
       </div>
     </div>
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize">Publications</h3>
+    <h4 class="text-capitalize">Publications</h4>
     <div class="pt-2">
       {% for publication in site.data.publications %}
         {% if publication.award %}
@@ -84,24 +84,33 @@ layout: default
           {% capture award %}{% endcapture %}
         {% endif %}
         <div class="pb-3">
-          <div class="indent indent-border action">
-            <h5 class="text-capitalize">{{ publication.title }}</h5>
-              <h6>
-                {{ publication.authors }}
-              </h6>
-              <h6>— {{ publication.venue }}, {{ publication.date | date: "%Y" }}{{ award }}
-              </h6>
+          <div class="  action">
+            <a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>
+              
+                <span>{{ publication.authors }}</span> </br>
+              
+               {{ publication.venue }}, {{ publication.date | date: "%Y" }}{{ award }}
+              
               <div class="d-flex">
+                {% if publication.venue_short %}
+                <div>
+                <button style="background-color: rgba(250, 115, 4, 0.787); font-size:11px; border-radius: 0px; border-width: 1px; color:white; font-weight: 700;" disabled="true" >{{publication.venue_short}}</button>
+                </div>
+
+                &nbsp;
+               {%endif%}
+
                 {% for link in publication.links %}
                   <div>
-                    <a href="{{ link.url }}" target="_blank">
-                      <h6 class="text-muted">
-                        <span class="highlight ps-2 pe-1">{{ link.label }}</span>
+                    <a href="{{ link.url }}"  target="_blank">
+                      
+                        <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" >{{ link.label }}</button>
                         {% if forloop.last == false %}
-                        │
+                        &nbsp;
                         {% endif %}
-                      </h6>
+                      
                     </a>
+                    
                   </div>
                 {% endfor %}
               </div>
@@ -111,28 +120,28 @@ layout: default
     </div>
   </div>
   <div class="pt-3">
-    <h3 class="text-capitalize">Service</h3>
+    <h4 class="text-capitalize">Service</h4>
     <div class="pt-2">
-      <div class="indent">
+      
         <p>
-           Served as a reviewer for NeurIPS (2021, 2022), ICML (2022, 2023) and ICLR (2021, 2022, 2023).
+           Served as a reviewer for NeurIPS (2021, 2022), ICML (2022, 2023) and ICLR (2021, 2022, 2023) and TMLR Journal.
         </p>
         <p>
            Got recognized as a Top Reviewer (~ top 8%) for NeurIPS 2022.
         </p>
-      </div>
+      
     </div>
   </div>
 
   <div class="pt-3">
-    <h3 class="text-capitalize">Miscellaneous</h3>
+    <h4 class="text-capitalize">Miscellaneous</h4>
     <div class="pt-2">
-      <div class="indent">
+      
         <p>
            I love playing badminton, racquetball, cricket and board games. I also enjoy reading good literature mostly in Hindi and Sanskrit.
            I am particularly fond of the depth and simplicity of the couplets by poets and saints like Kabir, Tulsidas, Rahim etc. and ofcourse the newest poet ChatGPT :) 
         </p>
-      </div>
+      
     </div>
   </div>
 </div>
