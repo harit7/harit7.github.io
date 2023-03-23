@@ -34,7 +34,7 @@ layout: default
   <div class="pt-3">
     <h4 class="text-capitalize">About Me</h4>
     <div class="pt-2">
-      <div class="indent">
+      
         <p class="fs-6">
            I am a Computer Science PhD student at the
 
@@ -59,18 +59,18 @@ layout: default
 
           to obtain my masters in CS. I have also worked as a software engineer at <a href ="https://www.ittiam.com/" target="_blank"><span class="highlight">Ittiam Systems, Bangalore </span></a> for a couple of years where we built a media transcoding service.
         </p>
-      </div>
+      
     </div>
   </div>
 
   <div class="pt-3">
     <h4 class="text-capitalize">Research Interests</h4>
     <div class="pt-2">
-      <div class="indent">
+      
         <h6>— Weak Supervision, Active Learning, Auto Labeling.</h6>
         <h6>— Understanding Deep Learning.</h6>
         <h6>— Representation Learning and non-Euclidean ML</h6>
-      </div>
+      
     </div>
   </div>
 
@@ -89,7 +89,7 @@ layout: default
               
                 <span>{{ publication.authors }}</span> </br>
               
-               {{ publication.venue }}, {{ publication.date | date: "%Y" }}{{ award }}
+               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }} <span style="color:red">{{ award }}</span> </i>
               
               <div class="d-flex">
                 {% if publication.venue_short %}
@@ -127,7 +127,7 @@ layout: default
            Served as a reviewer for NeurIPS (2021, 2022), ICML (2022, 2023) and ICLR (2021, 2022, 2023) and TMLR Journal.
         </p>
         <p>
-           Got recognized as a Top Reviewer (~ top 8%) for NeurIPS 2022.
+           Got recognized as a <b>Top Reviewer (~ top 8%)</b> for NeurIPS 2022.
         </p>
       
     </div>
