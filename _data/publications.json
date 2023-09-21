@@ -1,4 +1,47 @@
 [   
+      {
+        "title": "Promises and Pitfalls of Threshold-based Auto-labeling",
+        "authors": "Harit Vishwakarma, Heguang Lin, Frederic Sala, Ramya K. Vinayak",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2023-09-21",
+        "links": [
+            {
+                "label": "arXiv",
+                "url": "https://arxiv.org/abs/2211.12620"
+            }
+        ],
+        "url":"https://arxiv.org/abs/2211.12620",
+        "venue_short":"NeurIPS",
+        "award": "Spotlight"
+    },
+    {
+        "title": "Train 'n Trade: Foundations of Parameter Markets",
+        "authors": "Tzu-Heng Huang, Harit Vishwakarma,  Frederic Sala",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2023-09-21",
+        "links": [
+            {
+                
+            }
+        ],
+        "url":"",
+        "venue_short":"NeurIPS"
+    },
+    {
+        "title": "Human-in-the-Loop Out-of-Distribution Detection with False Positive Rate Control",
+        "authors": "Harit Vishwakarma, Heguang Lin, Ramya K. Vinayak",
+        "venue": "Under review",
+        "date": "2022-07-01",
+        "links": [
+            {
+            }
+        ],
+        "url":"",
+        "venue_short":"Under review"
+
+    },
+    
+    
     {
         "title": "ScriptoriumWS: A Code Generation Assistant for Weak Supervision",
         "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, Harit Vishwakarma, Nicholas Roberts, Frederic Sala",
