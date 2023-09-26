@@ -82,20 +82,7 @@
         "url": "https://openreview.net/forum?id=Cntmos_Ndf0",
         "venue_short":"NeurIPS"
     },
-    {
-        "title": "Good Data from Bad Models : Foundations of Threshold-based Auto-labeling",
-        "authors": "Harit Vishwakarma, Heguang Lin, Frederic Sala, Ramya K. Vinayak",
-        "venue": "Preprint",
-        "date": "2022-11-22",
-        "links": [
-            {
-                "label": "arXiv",
-                "url": "https://arxiv.org/abs/2211.12620"
-            }
-        ],
-        "url":"https://arxiv.org/abs/2211.12620",
-        "venue_short":"Preprint"
-    },
+
     {
         "title": "Adaptive Out-of-Distribution Detection with Human-in-the-Loop",
         "authors": "Harit Vishwakarma, Heguang Lin, Ramya K. Vinayak",
