@@ -75,8 +75,11 @@
                 "url": "https://arxiv.org/abs/2211.13375"
             },
             
-            { "label": "code",
+            { "label": "Code",
               "url" : "https://github.com/SprocketLab/WS-Structured-Prediction"
+            },
+            { "label" : "Blog", 
+               "url" : "https://sprocketlab.github.io/posts/2023/06/lifting-ws/"   
             }
         ],
         "url": "https://openreview.net/forum?id=Cntmos_Ndf0",
