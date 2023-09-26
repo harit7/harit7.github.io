@@ -79,7 +79,7 @@ layout: default
     <div class="pt-2">
       {% for publication in site.data.publications %}
         {% if publication.award %}
-          {% capture award %}, (<b>{{publication.award}}</b>){% endcapture %}
+          {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
         {% else %}
           {% capture award %}{% endcapture %}
         {% endif %}
