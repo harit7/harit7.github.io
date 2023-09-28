@@ -32,7 +32,7 @@ layout: default
   </div>
 
   <div class="pt-3">
-    <h4 class="text-capitalize">About Me</h4>
+    <h5 class="text-capitalize">About Me</h5>
     <div class="pt-2">
       
         <p class="fs-6">
@@ -64,7 +64,7 @@ layout: default
   </div>
 
   <div class="pt-3">
-    <h4 class="text-capitalize">Research Interests</h4>
+    <h5 class="text-capitalize">Research Interests</h5>
     <div class="pt-2">
       
         <h6>— Weak Supervision, Active Learning, Auto Labeling.</h6>
@@ -75,9 +75,10 @@ layout: default
   </div>
 
   <div class="pt-3">
-    <h4 class="text-capitalize">Publications</h4>
+    <h5 class="text-capitalize"> Pre-prints or Under-review </h5>
+    <hr>
     <div class="pt-2">
-      {% for publication in site.data.publications %}
+      {% for publication in site.data.preprint %}
         {% if publication.award %}
           {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
         {% else %}
@@ -85,17 +86,18 @@ layout: default
         {% endif %}
         <div class="pb-3">
           <div class="  action">
-            <a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>
-              
+            <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
+            <a href="{{publication.url}}" style="font-size: 17px;"><span class="highlight">{{ publication.title }}</span></a>
+          </br>
                 <span>{{ publication.authors }}</span> </br>
               
-               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }} <span style="color:red">{{ award }}</span> </i>
+               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(18, 17, 17)">{{ award }}</span> 
               
               <div class="d-flex">
                 {% if publication.venue_short %}
-                <div>
+                <!--<div>
                   <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" disabled="true" >{{publication.venue_short}}</button>
-                </div>
+                </div>!-->
 
                 &nbsp;
                {%endif%}
@@ -115,12 +117,114 @@ layout: default
                 {% endfor %}
               </div>
           </div>
+          <p style="margin:10px;"></p>
         </div>
       {% endfor %}
     </div>
   </div>
+
+
   <div class="pt-3">
-    <h4 class="text-capitalize">Service</h4>
+    <h5 class="text-capitalize"> Conference Publications </h5>
+    <hr>
+    <div class="pt-2">
+      {% for publication in site.data.conf_pubs %}
+        {% if publication.award %}
+          {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
+        {% else %}
+          {% capture award %}{% endcapture %}
+        {% endif %}
+        <div class="pb-3">
+          <div class="  action">
+            <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
+            <a href="{{publication.url}}" style="font-size: 17px;"><span class="highlight">{{ publication.title }}</span></a>
+          </br>
+                <span>{{ publication.authors }}</span> </br>
+              
+               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(18, 17, 17)">{{ award }}</span> 
+              
+              <div class="d-flex">
+                {% if publication.venue_short %}
+                <!--<div>
+                  <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" disabled="true" >{{publication.venue_short}}</button>
+                </div>!-->
+
+                &nbsp;
+               {%endif%}
+
+                {% for link in publication.links %}
+                  <div>
+                    <a href="{{ link.url }}"  target="_blank">
+                      
+                        <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" >{{ link.label }}</button>
+                        {% if forloop.last == false %}
+                        &nbsp;
+                        {% endif %}
+                      
+                    </a>
+                    
+                  </div>
+                {% endfor %}
+              </div>
+          </div>
+          <p style="margin:10px;"></p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div class="pt-3">
+    <h5 class="text-capitalize"> Workshop Publications </h5>
+    <hr>
+    <div class="pt-2">
+      {% for publication in site.data.ws_pubs %}
+        {% if publication.award %}
+          {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
+        {% else %}
+          {% capture award %}{% endcapture %}
+        {% endif %}
+        <div class="pb-3">
+          <div class="  action">
+            <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
+            <a href="{{publication.url}}" style="font-size: 17px;"><span class="highlight">{{ publication.title }}</span></a>
+          </br>
+                <span>{{ publication.authors }}</span> </br>
+              
+               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(18, 17, 17)">{{ award }}</span> 
+              
+              <div class="d-flex">
+                {% if publication.venue_short %}
+                <!--<div>
+                  <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" disabled="true" >{{publication.venue_short}}</button>
+                </div>!-->
+
+                &nbsp;
+               {%endif%}
+
+                {% for link in publication.links %}
+                  <div>
+                    <a href="{{ link.url }}"  target="_blank">
+                      
+                        <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" >{{ link.label }}</button>
+                        {% if forloop.last == false %}
+                        &nbsp;
+                        {% endif %}
+                      
+                    </a>
+                    
+                  </div>
+                {% endfor %}
+              </div>
+          </div>
+          <p style="margin:10px;"></p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="pt-3">
+    <h5 class="text-capitalize">Service</h5>
+    <hr>
     <div class="pt-2">
       
         <p>
