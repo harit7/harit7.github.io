@@ -29,5 +29,25 @@
         "venue_short":"ICML WS",
         "type": "workshop"
 
+    },
+
+    {
+        "title": "An End-to-end Machine Learning Pipeline that Ensures Fairness Policies",
+        "authors": "S. Shaikh, H. Vishwakarma, S. Mehta, K. R. Varshney, K. N. Ramamurthy, D. Wei",
+        "venue": "Bloomberg Data for Good Exchange",
+        "date": "2017-10-01",
+        "links": [
+            {
+                "label": "PDF",
+                "url": "https://arxiv.org/pdf/1710.06876.pdf"
+            }
+        ],
+        "url":"https://arxiv.org/pdf/1710.06876.pdf",
+        "venue_short":"Bloomberg D4GX",
+        "type": "workshop"
+
     }
+
+
+
 ]
