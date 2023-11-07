@@ -6,7 +6,7 @@
         "date": "2023-09-21",
         "links": [
               {
-                  "label": "PDF",
+                  "label": "Paper",
                   "url" : "https://openreview.net/pdf?id=RUCFAKNDb2"
             },
             
@@ -30,7 +30,7 @@
         "date": "2023-09-21",
          "links":[
                {
-                     "label":"PDF",
+                     "label":"Paper",
                      "url":"https://openreview.net/pdf?id=4iV26fZPUD"
                }
          ], 
@@ -46,7 +46,7 @@
         "date": "2022-11-24",
         "links": [
             
-            { "label": "PDF",
+            { "label": "Paper",
             "url" : "https://openreview.net/forum?id=Cntmos_Ndf0"
             },
 
@@ -74,7 +74,7 @@
         "date": "2022-01-01",
         "links": [
             { 
-                "label":"PDF",
+                "label":"Paper",
                 "url": "https://openreview.net/forum?id=YpPiNigTzMT"
             },
             {
@@ -98,7 +98,7 @@
         "award": "Spotlight",
         "links": [
             {
-                "label": "PDF",
+                "label": "Paper",
                 "url": "https://proceedings.neurips.cc/paper/2020/file/1b742ae215adf18b75449c6e272fd92d-Paper.pdf"
             },
             { "label" : "arXiv",
@@ -121,7 +121,7 @@
         "date": "2020-06-01",
         "links": [
             {
-                "label": "PDF",
+                "label": "Paper",
                 "url": "https://proceedings.neurips.cc/paper/2020/file/b8ffa41d4e492f0fad2f13e29e1762eb-Paper.pdf"
             },
             { "label" : "Code",
@@ -139,7 +139,7 @@
         "date": "2019-01-01",
         "links": [
             {
-                "label": "PDF",
+                "label": "Paper",
                 "url": "https://proceedings.neurips.cc/paper/2019/file/cb12d7f933e7d102c52231bf62b8a678-Paper.pdf"
 
             },
@@ -160,7 +160,7 @@
         "award": "Best Paper Nominee",
         "links": [
             {
-                "label": "PDF",
+                "label": "Paper",
                 "url": "https://dl.acm.org/doi/abs/10.1145/3209542.3209548"
             }
         ],
