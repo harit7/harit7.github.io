@@ -5,7 +5,7 @@
         "venue": "Deep Learning for Code (DL4C) Workshop at ICLR",
         "date": "2023-03-20",
         "links": [
-            { "label": "PDF",
+            { "label": "Paper",
               "url" : "https://pages.cs.wisc.edu/~fredsala/ScriptoriumWS.pdf"
             }
         ],
@@ -21,7 +21,7 @@
         "date": "2022-07-01",
         "links": [
             {
-                "label": "PDF",
+                "label": "Paper",
                 "url": "https://ramyakv.github.io/Adaptive-OOD-Detection-Human-in-the-loop.pdf"
             }
         ],
@@ -38,7 +38,7 @@
         "date": "2017-10-01",
         "links": [
             {
-                "label": "PDF",
+                "label": "Paper",
                 "url": "https://arxiv.org/pdf/1710.06876.pdf"
             }
         ],
