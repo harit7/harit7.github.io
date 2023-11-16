@@ -5,7 +5,7 @@ layout: default
   <div class="pt-3">
     <div class="row align-items-center">
       <div class="col-sm-12 col-lg-auto text-center">
-        {% assign imageUrl = "assets/images/profile-image-2.jpg" %}
+        {% assign imageUrl = "assets/images/profile-image-3.png" %}
         <img class="img-fluid avatar" src="{{ imageUrl | relative_url }}" alt="{{ site.title }}" />
       </div>
 
@@ -45,7 +45,7 @@ layout: default
           </a>
           and  prof.
           <a href="https://ramyakv.github.io/" target="_blank">
-            <span class="highlight"> Ramya K. Vinayak</span>
+            <span class="highlight"> Ramya Vinayak</span>
           </a>
 
           as my advisors.
@@ -68,18 +68,50 @@ layout: default
               
          I am broadly interested in understanding machine learning fundamentals and developing theoretically grounded solutions.
         
-        Topics I have been working on :  weak supervision, active learning, threshold-based auto-labeling, OOD robustness and calibration.  
+        Topics I have been working on :  weak supervision, active learning, auto-labeling, OOD robustness and calibration.  
          
-      
     </div>
   </div>
-
-  <div> </br> Checkout my work with awesome collaborators and feel free to connect if something strikes a chord. </div>
+  
+  
+   
   <div class="pt-3">
-    <h5 class="text-capitalize"> Pre-prints or Under-review </h5>
+    <h5 class="text-capitalize"> News</h5>
+    <hr>
+    
+    <ul>
+      <span style="background-color:rgba(212, 255, 71, 0.393);">Seeking a research internship for summer'24.</span>
+    </ul>
+    <ul>
+    <li>11/23 :  Gave a talk on Taming False Positives in Out of Distribution Detection at <i>IFDS Seminar </i></li>
+    
+    <li> 09/23 : Two papers accepted in NeurIPS!
+      <ul>
+      <li> Checkout our work on fundamentals of <a href="https://neurips.cc/virtual/2023/poster/71657"> auto-labeling</a> got accepted as a spotlight.
+      </li>
+      <li>  Checkout our work on foundations of <a href="https://nips.cc/virtual/2023/poster/72839"> parameter markets.</a>
+      </li>
+      </ul>
+
+    </li>
+
+    <li>07/23: Presented our work on auto-labeling and OOD detection in DMLR and AI-HCI workshops @ ICML'23.</li>
+
+    <li> 
+      06/23 :  New <a href="/posts/2023/06/lifting-ws/">blog post</a> on aggregating LLM or foundation model objects using weak supervision
+    </li>
+    
+  </ul>
+
+   </div>
+
+  <div> </br> Checkout my work with amazing collaborators and feel free to connect if something strikes a chord. </div>
+
+  <div class="pt-3">
+    <h5 class="text-capitalize"> Blog Posts </h5>
     <hr>
     <div class="pt-2">
-      {% for publication in site.data.preprint %}
+      {% for publication in site.data.blogs %}
         {% if publication.award %}
           {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
         {% else %}
@@ -88,11 +120,11 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
-               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(18, 17, 17)">{{ award }}</span> 
+               <i> {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(18, 17, 17)">{{ award }}</span> 
               
               <div class="d-flex">
                 {% if publication.venue_short %}
@@ -124,12 +156,11 @@ layout: default
     </div>
   </div>
 
-
   <div class="pt-3">
-    <h5 class="text-capitalize"> Conference Publications </h5>
+    <h5 class="text-capitalize"> Pre-prints or Under-review </h5>
     <hr>
     <div class="pt-2">
-      {% for publication in site.data.conf_pubs %}
+      {% for publication in site.data.preprint %}
         {% if publication.award %}
           {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
         {% else %}
@@ -138,7 +169,7 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
@@ -154,16 +185,60 @@ layout: default
                {%endif%}
 
                 {% for link in publication.links %}
+                <div>
+                  <a href="{{ link.url }}"  target="_blank">
+                    <span class="highlight">{{ link.label }}</span>
+                  </a>
+                      {% if forloop.last == false %}
+                      | &nbsp;
+                      {% endif %}
+                </div>
+                {% endfor %}
+              </div>
+          </div>
+          <p style="margin:10px;"></p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+
+  <div class="pt-3">
+    <h5 class="text-capitalize"> Conference Publications </h5>
+    <hr>
+    <div class="pt-2">
+      {% for publication in site.data.conf_pubs %}
+        {% if publication.award %}
+          {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
+        {% else %}
+          {% capture award %}{% endcapture %}
+        {% endif %}
+        <div class="pb-3">
+          <div class="  action">
+            <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
+            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
+          </br>
+                <span>{{ publication.authors }}</span> </br>
+              
+               <i>{{ publication.venue }}, {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(200, 28, 28)">{{ award }}</span> 
+              
+              <div class="d-flex">
+                {% if publication.venue_short %}
+                <!--<div>
+                  <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" disabled="true" >{{publication.venue_short}}</button>
+                </div>!-->
+
+                &nbsp;
+               {%endif%}
+                
+                {% for link in publication.links %}
                   <div>
                     <a href="{{ link.url }}"  target="_blank">
-                      
-                        <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" ><span class="highlight">{{ link.label }}</span></button>
-                        {% if forloop.last == false %}
-                        &nbsp;
-                        {% endif %}
-                      
+                      <span class="highlight">{{ link.label }}</span>
                     </a>
-                    
+                        {% if forloop.last == false %}
+                        | &nbsp;
+                        {% endif %}
                   </div>
                 {% endfor %}
               </div>
@@ -187,7 +262,7 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
@@ -203,17 +278,14 @@ layout: default
                {%endif%}
 
                 {% for link in publication.links %}
-                  <div>
-                    <a href="{{ link.url }}"  target="_blank">
-                      
-                        <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" ><span class="highlight">{{ link.label }}</span></button>
-                        {% if forloop.last == false %}
-                        &nbsp;
-                        {% endif %}
-                      
-                    </a>
-                    
-                  </div>
+                <div>
+                  <a href="{{ link.url }}"  target="_blank">
+                    <span class="highlight">{{ link.label }}</span>
+                  </a>
+                      {% if forloop.last == false %}
+                      | &nbsp;
+                      {% endif %}
+                </div>
                 {% endfor %}
               </div>
           </div>
@@ -264,7 +336,6 @@ layout: default
       
       <ul>
   <li> I like sports and athletic activities. I enjoy playing badminton, racquetball and biking around in Madison. 
-    I grew up playing and following cricket like any other kid in India. 
   </li>
       
 

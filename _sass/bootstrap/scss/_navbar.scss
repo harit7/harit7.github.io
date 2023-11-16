@@ -73,7 +73,7 @@
 // Custom navbar navigation (doesn't require `.nav`, but does make use of `.nav-link`).
 
 .navbar-nav {
-  display: flex;
+  display: fixed;
   flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
   padding-left: 0;
   margin-bottom: 0;
