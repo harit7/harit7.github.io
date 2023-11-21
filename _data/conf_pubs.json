@@ -17,6 +17,10 @@
             { "label": "Code",
               "url" : "https://github.com/harit7/TBAL-NeurIPS-23"
             },
+            {"label" : "Slides",
+            "url": "assets/pdf/TBAL-long-talk-v1.0.pdf"
+          }
+           
         ],
         "url":"https://openreview.net/pdf?id=RUCFAKNDb2",
         "venue_short":"NeurIPS",
