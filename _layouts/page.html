@@ -2,74 +2,16 @@
 layout: default
 ---
 <div>
-  <h3>Blog Posts</h3>
-  {% if paginator.posts %}
-   <div>
-    {% for post in paginator.posts %}
-    <div class="pt-3">
-      <div class="indent indent-border action">
-        <a href="{{ post.url }}">
-          <div class="row align-items-center">
-            {% if post.imageUrl %}
-            <div class="col-sm-8 col-md-7 col-lg-6 col-xl-5 align-self-stretch pe-3">
-              <img class="img-fluid w-100 h-100 rounded-3" src="{{ post.imageUrl }}" />
-            </div>
-            {% endif %}
-            <div class="col">
-              <h4 class="text-capitalize">{{ post.title }}</h4>
-              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 300 }}</p>
-              <h6 class="text-muted">
-                — {{site.title}}, {{ post.date | date_to_string }}
-              </h6>
-            </div>
-          </div>
-        </a>
-      </div>
-      
-    </div>
+  Here, I maintain a collection of lecture notes, books, tutorials, papers, talks etc. that I found to be super helpful.
+  
+  <br>
+  <br>
+   
 
-    {% endfor %}
-    <div>
-      <div class="row justify-content-center pt-5 pb-3">
-        <div class="col-md-6">
-          <div class="d-flex justify-content-between">
-            <div>
-              {% if paginator.previous_page %}
-              <h5>
-                <a href="{{ paginator.previous_page_path }}">
-                  « Previous
-                </a>
-              </h5>
-              {% else %}
-              <h5 class="text-muted">
-                « Previous
-              </h5>
-              {% endif %}
-            </div>
-            <div>
-              <h5>
-                {{ paginator.page }} / {{ paginator.total_pages }}
-              </h5>
-            </div>
-            <div>
-              {% if paginator.next_page %}
-              <h5>
-                <a href="{{ paginator.next_page_path }}" class="next">Next »</a>
-              </h5>
-              {% else %}
-              <h5 class="text-muted">
-                Next »
-              </h5>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-   </div>
-  {% else %}
-    <div>
-      Coming Soon...
-    </div>
-  {% endif %}
+  <div>
+  <li> Duchi's lecture notes on <a href ="https://web.stanford.edu/class/stats311/lecture-notes.pdf">   Statistics and Information Theory</a>. </li>  <br> 
+  <li> Tropp's lecture notes on  <a href ="https://tropp.caltech.edu/notes/Tro21-Probability-High-LN-corr.pdf"> Concentration Inequalities</a>. </li> <br> 
+  <li> <a href = "http://www.econ.upf.edu/~lugosi/mlss_slt.pdf"> Intro. to Statistical Learning Theory</a> by Bousquet, Boucheron, and Lugosi. </li>  <br> 
+  </div>
+
 </div>
