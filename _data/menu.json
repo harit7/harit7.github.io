@@ -6,5 +6,10 @@
   {
     "label": "Resources",
     "link" : "/resources"
+  },
+  {
+    "label": "CV",
+    "link" : "/assets/pdf/CV.pdf"
   }
+
 ]
