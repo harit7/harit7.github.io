@@ -17,9 +17,23 @@
             { "label": "Code",
               "url" : "https://github.com/harit7/TBAL-NeurIPS-23"
             },
-            {"label" : "Slides",
-            "url": "assets/pdf/TBAL-long-talk-v1.0.pdf"
-          }
+            {
+                "label": "Talk (5m)",
+                "url": "https://recorder-v3.slideslive.com/?share=89973&s=91f0b80a-2bd3-4f94-809e-db847601a167"
+            },
+            {
+                "label": "Slides (5m)",
+                "url": "/assets/pdf/TBAL-NeurIPS-23-v1.0.pdf"
+            },
+
+            { 
+                "label": "Talk (1hr)",
+                "url" : "https://uwmadison.zoom.us/rec/share/-WUdlq79DMSMZwl601uEELqpnEXM9cJ0ItXLxOiB-wQ1ieP4REbC1IKFTt9iuEz3.Zq9CFPyp7xTCE--_"
+            },
+            {
+            "label" : "Slides (1hr)",
+             "url": "assets/pdf/TBAL-long-talk-v1.0.pdf"
+            }
            
         ],
         "url":"https://openreview.net/pdf?id=RUCFAKNDb2",
@@ -36,6 +50,14 @@
                {
                      "label":"Paper",
                      "url":"https://openreview.net/pdf?id=4iV26fZPUD"
+               },
+               {
+                 "label": "Talk (5m)",
+                 "url": "https://recorder-v3.slideslive.com/?share=88953&s=3b17c6bd-fa69-42e2-bde8-b2fd4972b34e"
+               },
+               {
+                "label" : "Slides",
+                "url": "assets/pdf/PM_5mins.pdf"
                }
          ], 
         "url":"https://openreview.net/pdf?id=4iV26fZPUD",
