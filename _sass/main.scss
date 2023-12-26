@@ -68,7 +68,10 @@ a {
 .site-header {
   padding: 0 1rem 0 1rem;
   border-bottom: 0.1rem solid rgba($primary, 0.05);
-  background: rgba($primary, 0.01);
+  background: #fcfcfc;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 .site-main {
   padding: 0 1rem 1rem 1rem;
@@ -98,7 +101,7 @@ a {
 
 .footer-main {
   border-top: 0.1rem solid rgba($primary, 0.05);
-  background: rgba($primary, 0.01);
+  background: #fcfcfc;
 }
 
 
