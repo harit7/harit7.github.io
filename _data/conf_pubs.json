@@ -15,7 +15,7 @@
                 "url": "https://arxiv.org/abs/2211.12620"
             },
             { "label": "Code",
-              "url" : "https://github.com/harit7/TBAL-NeurIPS-23"
+              "url" : "https://github.com/harit7/TBAL"
             },
             {
                 "label": "Talk (5m)",
@@ -50,6 +50,10 @@
                {
                      "label":"Paper",
                      "url":"https://openreview.net/pdf?id=4iV26fZPUD"
+               },
+               {
+                    "label": "Code",
+                    "url": "https://github.com/SprocketLab/parameter-market"
                },
                {
                  "label": "Talk (5m)",
