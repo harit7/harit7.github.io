@@ -5,7 +5,7 @@ layout: default
   <div class="pt-3">
     <div class="row align-items-center">
       <div class="col-sm-12 col-lg-auto text-center">
-        {% assign imageUrl = "assets/images/profile-image-3.jpg" %}
+        {% assign imageUrl = "assets/images/profile-image.jpg" %}
         <img class="img-fluid avatar" src="{{ imageUrl | relative_url }}" alt="{{ site.title }}" />
       </div>
 
@@ -47,17 +47,14 @@ layout: default
           <a href="https://ramyakv.github.io/" target="_blank">
             <span class="highlight"> Ramya Vinayak</span>
           </a>
-
-          as my advisors.
-          My research interests are broadly in foundations of machine learning, statistics and applications. Before coming to Madison I worked at
+          as my advisors. My research interests are broadly in foundations of machine learning, statistics and applications. Before coming to Madison I worked at
           <a href="https://research.ibm.com/labs/india/" target="_blank"><span class="highlight">IBM Research, India</span></a>
            and spent two wonderful years at the 
           <a href="https://iisc.ac.in/" target="_blank">
             <span class="highlight">IISc, Bangalore</span>
-          </a>
-
-          to obtain my masters in CS. I was a software engineer at <a href ="https://www.ittiam.com/" target="_blank"><span class="highlight">Ittiam Systems, Bangalore </span></a> for a couple of years where we built a media transcoding service. 
-          Here is my <a href ="assets/pdf/CV.pdf">CV</a>.
+          </a> to obtain a masters in CS. I was a software engineer at <a href ="https://www.ittiam.com/" target="_blank"><span class="highlight">Ittiam Systems, Bangalore </span></a> for a couple of years where we built a media transcoding service. 
+          Before that I grew up playing <a href="https://en.wikipedia.org/wiki/Cricket">cricket</a> in a village in <a href="https://en.wikipedia.org/wiki/Bundelkhand">Bundelkhand</a>, India and graduated from <a href="https://www.sgsits.ac.in/">SGSITS, Indore</a> with B.E. in computer science.  Here is my <a href ="assets/pdf/CV.pdf">CV</a>.
+           
         </p>
       
     </div>
@@ -66,11 +63,27 @@ layout: default
   <div class="pt-3">
     <h5 class="text-capitalize">Research Interests</h5>
     <div class="pt-2">
-              
-         I am broadly interested in understanding machine learning fundamentals and developing theoretically grounded solutions. <br>
         
-        Topics I have been working on :  weak supervision, active learning, auto-labeling, OOD robustness and calibration.  
-         
+       <i>"Trying to make sense of the world a bit at a time."</i> <br> <br> 
+        <ul>
+        <li style="margin-bottom: 10px">
+        I am fascinated by machine learning and statistics, with a focus on comprehending fundamental principles and developing theoretically grounded solutions (a.k.a "practical theory").
+        My current interests revolve around, <u>learning with limited labeled data</u> [<a href="https://openreview.net/pdf?id=RUCFAKNDb2">auto-labeling</a>, <a href="https://openreview.net/forum?id=Cntmos_Ndf0">weak supervision</a>], 
+        <u>uncertainty quantification and calibration</u>, and <u>statistical inference</u>/safe anytime valid inference (SAVI) [<a href="/assets/pdf/ood-fpr-draft.pdf">adaptive OOD detection</a>].
+        </li>
+
+
+        <li style="margin-bottom: 10px">
+          I gravitate towards <u>efficient organization and retrieval of information</u> and love building efficient+elegant systems in general. 
+        I have delved into <u>reasoning</u> and <u>knowledge graph embeddings</u> [<a href="https://proceedings.neurips.cc/paper/2019/file/cb12d7f933e7d102c52231bf62b8a678-Paper.pdf">quantum embeddings</a>], and <a href="https://dl.acm.org/doi/abs/10.1145/3209542.3209548">information retrieval</a>. 
+        I am exploring <a href="/posts/2023/06/lifting-ws/">Foundation models/LLMs</a> as they provide a more unified and promising solution to these problems. 
+        </li>
+
+        <li style="margin-bottom: 10px">
+          I am also enthusiastic about <u>optimzation and game theory</u> [<a href="https://openreview.net/pdf?id=4iV26fZPUD">parameter markets</a>, <a href="https://proceedings.neurips.cc/paper/2020/file/b8ffa41d4e492f0fad2f13e29e1762eb-Paper.pdf">federated learning</a>].
+        </li>
+
+        </ul>
     </div>
   </div>
   
@@ -83,9 +96,9 @@ layout: default
     <ul>
       
       <li>11/23 : Presented our work on auto-labeling in <a href ="https://mlopt.ece.wisc.edu/idea-seminar/">MLOPT Idea Seminar</a>. &nbsp; <a href="assets/pdf/TBAL-long-talk-v1.0.pdf"> [Slides].</a></li>
-    <li>10/23 :  Presented our work on Taming False Positives in Out of Distribution Detection at <a href="https://ifds.info/">IFDS Seminar.</a> </li>
+      <li>10/23 : Presented our work on Taming False Positives in Out of Distribution Detection at <a href="https://ifds.info/">IFDS Seminar.</a> </li>
     
-    <li> 09/23 : Two papers accepted in NeurIPS!
+      <li>09/23 : Two papers accepted in NeurIPS!
       <ul>
       <li> Checkout our work on fundamentals of <a href="https://neurips.cc/virtual/2023/poster/71657"> auto-labeling</a> got accepted as a spotlight .
       </li>
@@ -95,17 +108,16 @@ layout: default
 
     </li>
 
-    <li>07/23: Presented our work on auto-labeling and OOD detection in DMLR and AI-HCI workshops @ ICML'23.</li>
+    <li>07/23 : Presented our work on auto-labeling and OOD detection in DMLR and AI-HCI workshops @ ICML'23.</li>
 
-    <li> 
-      06/23 :  New <a href="/posts/2023/06/lifting-ws/">blog post</a> on aggregating LLM or foundation model objects using weak supervision.
+    <li>06/23 :  New <a href="/posts/2023/06/lifting-ws/">blog post</a> on aggregating LLM or foundation model objects using weak supervision.
     </li>
     
   </ul>
 
    </div>
 
-  <div> </br> Checkout my work with amazing collaborators and feel free to connect if something strikes a chord. </div>
+  <div> </br> Checkout my work with amazing collaborators and don't hesitate to contact if something strikes a chord. </div>
 
   <div class="pt-3">
     <h5 class="text-capitalize"> Blog Posts </h5>
@@ -120,7 +132,7 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px;  "><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
@@ -169,7 +181,7 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px; "><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
@@ -216,7 +228,7 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px; "><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
@@ -262,7 +274,7 @@ layout: default
         <div class="pb-3">
           <div class="  action">
             <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px; font-weight:bold;"><span class="highlight">{{ publication.title }}</span></a>
+            <a href="{{publication.url}}" style="font-size: 17px; "><span class="highlight">{{ publication.title }}</span></a>
           </br>
                 <span>{{ publication.authors }}</span> </br>
               
@@ -335,9 +347,9 @@ layout: default
     <div class="pt-2">
       
       <ul>
-  <li> I like sports and athletic activities. I enjoy playing badminton, racquetball and biking around in Madison. 
+  <li> I love sports/athletic activities, particularly enjoy playing cricket, badminton, racquetball and biking, running. 
   </li>
-      
+
 
   <p style="margin:10px;"></p>
     </div>
