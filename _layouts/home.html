@@ -94,7 +94,7 @@ layout: default
     <hr>
     
     <ul>
-      
+      <li>[01/24] Paper with Lin and Ramya on OOD Detection with FPR control got accepted in AISTATS 2024! </li>
       <li>[11/23] Presented our work on auto-labeling in <a href ="https://mlopt.ece.wisc.edu/idea-seminar/">MLOPT Idea Seminar</a>. &nbsp; <a href="assets/pdf/TBAL-long-talk-v1.0.pdf"> [Slides].</a></li>
       <li>[10/23] Presented our work on Taming False Positives in Out of Distribution Detection at <a href="https://ifds.info/">IFDS Seminar.</a> </li>
     
@@ -120,57 +120,10 @@ layout: default
   <div> </br> Checkout my work with amazing collaborators and don't hesitate to contact if something strikes a chord. </div>
 
   <div class="pt-3">
-    <h5 class="text-capitalize"> Blog Posts </h5>
-    <hr>
-    <div class="pt-2">
-      {% for publication in site.data.blogs %}
-        {% if publication.award %}
-          {% capture award %} (<b>{{publication.award}}</b>){% endcapture %}
-        {% else %}
-          {% capture award %}{% endcapture %}
-        {% endif %}
-        <div class="pb-3">
-          <div class="  action">
-            <!--<a href="{{publication.url}}" style="font-size: 14px;"><h6 class="text-capitalize highlight">{{ publication.title }}</h6></a>-->
-            <a href="{{publication.url}}" style="font-size: 17px;  "><span class="highlight">{{ publication.title }}</span></a>
-          </br>
-                <span>{{ publication.authors }}</span> </br>
-              
-               <i> {{ publication.date | date: "%Y" }}</i> <span style="color:rgb(18, 17, 17)">{{ award }}</span> 
-              
-              <div class="d-flex">
-                {% if publication.venue_short %}
-                <!--<div>
-                  <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" disabled="true" >{{publication.venue_short}}</button>
-                </div>!-->
+    
+    <!--<h5 class="text-capitalize"> Pre-prints or Under-review </h5>
+    <hr>!-->
 
-                &nbsp;
-               {%endif%}
-
-                {% for link in publication.links %}
-                  <div>
-                    <a href="{{ link.url }}"  target="_blank">
-                      
-                        <button style="background-color: white; font-size:11px; border-radius: 5px; border-width: 1px; border-color: rgb(82, 194, 216);" > <span class="highlight">{{ link.label }}</span></button>
-                        {% if forloop.last == false %}
-                        &nbsp;
-                        {% endif %}
-                      
-                    </a>
-                    
-                  </div>
-                {% endfor %}
-              </div>
-          </div>
-          
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-
-  <div class="pt-3">
-    <h5 class="text-capitalize"> Pre-prints or Under-review </h5>
-    <hr>
     <div class="pt-2">
       {% for publication in site.data.preprint %}
         {% if publication.award %}

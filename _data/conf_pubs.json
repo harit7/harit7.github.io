@@ -1,4 +1,20 @@
 [   
+    {
+        "title": "Taming False Positives in Out-of-Distribution Detection with Human Feedback",
+        "authors": "Harit Vishwakarma, Heguang Lin, Ramya Vinayak",
+        "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+        "date": "2024-01-19",
+        "url":"/assets/pdf/ood-fpr-draft.pdf",
+        "venue_short":"AISTATS",
+        "type": "conference",
+        "links":[
+             {
+                "label":"Draft",
+                "url": "/assets/pdf/ood-fpr-draft.pdf"
+             }
+        ]
+
+    },
       {
         "title": "Promises and Pitfalls of Threshold-based Auto-labeling",
         "authors": "Harit Vishwakarma, Heguang Lin, Frederic Sala, Ramya Vinayak",
