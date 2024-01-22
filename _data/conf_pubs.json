@@ -1,7 +1,21 @@
-[   
+[   {
+    "title": "Pearls from Pebbles: Improved Confidence Functions for Auto-labeling",
+    "authors": "Harit Vishwakarma, Yi Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
+    "venue": "Coming Soon/Under Review",
+    "date": "2024-01-21",
+    "url":"",
+    "venue_short":"",
+    "type": "preprint",
+    "links":[
+         {
+            
+         }
+    ]
+
+},
     {
         "title": "Taming False Positives in Out-of-Distribution Detection with Human Feedback",
-        "authors": "Harit Vishwakarma, Heguang Lin, Ramya Vinayak",
+        "authors": "Harit Vishwakarma, Heguang Lin, Ramya Korlakai Vinayak",
         "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
         "date": "2024-01-19",
         "url":"/assets/pdf/ood-fpr-draft.pdf",
@@ -9,7 +23,7 @@
         "type": "conference",
         "links":[
              {
-                "label":"Draft",
+                "label":"Paper",
                 "url": "/assets/pdf/ood-fpr-draft.pdf"
              }
         ]
@@ -17,7 +31,7 @@
     },
       {
         "title": "Promises and Pitfalls of Threshold-based Auto-labeling",
-        "authors": "Harit Vishwakarma, Heguang Lin, Frederic Sala, Ramya Vinayak",
+        "authors": "Harit Vishwakarma, Heguang Lin, Frederic Sala, Ramya Korlakai Vinayak",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2023-09-21",
         "links": [
