@@ -14,22 +14,6 @@
         "type": "workshop"
     },
     
-    {
-        "title": "Adaptive Out-of-Distribution Detection with Human-in-the-Loop",
-        "authors": "Harit Vishwakarma, Heguang Lin, Ramya Korlakai Vinayak",
-        "venue": "ICML Workshop on Human Machine Collaboration and Teaming",
-        "date": "2022-07-01",
-        "links": [
-            {
-                "label": "Paper",
-                "url": "https://ramyakv.github.io/Adaptive-OOD-Detection-Human-in-the-loop.pdf"
-            }
-        ],
-        "url":"https://ramyakv.github.io/Adaptive-OOD-Detection-Human-in-the-loop.pdf",
-        "venue_short":"ICML WS",
-        "type": "workshop"
-
-    },
 
     {
         "title": "An End-to-end Machine Learning Pipeline that Ensures Fairness Policies",

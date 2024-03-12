@@ -1,30 +1,40 @@
 [   {
     "title": "Pearls from Pebbles: Improved Confidence Functions for Auto-labeling",
     "authors": "Harit Vishwakarma, Yi Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
-    "venue": "Coming Soon/Under Review",
+    "venue": "Under Review",
     "date": "2024-01-21",
     "url":"",
     "venue_short":"",
-    "type": "preprint",
-    "links":[
-         {
-            
-         }
-    ]
+    "type": "preprint"
+  
 
-},
+    },
+    {
+        "title": "OTTER: Improving Zero-Shot Classification via Optimal Transport",
+        "authors": "Changho Shin, Jitian Zhao, Sonia Cromp, Harit Vishwakarma, Frederic Sala",
+        "venue": "Under Review",
+        "date": "2024-01-21",
+        "url":"",
+        "venue_short":"",
+        "type": "preprint"
+
+    },
     {
         "title": "Taming False Positives in Out-of-Distribution Detection with Human Feedback",
         "authors": "Harit Vishwakarma, Heguang Lin, Ramya Korlakai Vinayak",
         "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
         "date": "2024-01-19",
-        "url":"/assets/pdf/ood-fpr-draft.pdf",
+        "url":"/assets/pdf/ood-fpr-aistats.pdf",
         "venue_short":"AISTATS",
         "type": "conference",
         "links":[
              {
                 "label":"Paper",
-                "url": "/assets/pdf/ood-fpr-draft.pdf"
+                "url": "/assets/pdf/ood-fpr-aistats.pdf"
+             },
+             {
+                "label":"Code",
+                "url":"https://github.com/2454511550Lin/TameFalsePositives-OOD"
              }
         ]
 
@@ -58,7 +68,7 @@
 
             { 
                 "label": "Talk (1hr)",
-                "url" : "https://uwmadison.zoom.us/rec/share/-WUdlq79DMSMZwl601uEELqpnEXM9cJ0ItXLxOiB-wQ1ieP4REbC1IKFTt9iuEz3.Zq9CFPyp7xTCE--_"
+                "url" : "https://www.youtube.com/watch?v=WYUKyBy2yRs"
             },
             {
             "label" : "Slides (1hr)",
@@ -128,7 +138,7 @@
     },
 
     {
-        "title": "Universalizing weak supervision",
+        "title": "Universalizing Weak Supervision",
         "authors": "Changho Shin, Winfred Li, Harit Vishwakarma, Nicholas Roberts, Frederic Sala",
         "venue": "International Conference on Learning Representations (ICLR)",
         "date": "2022-01-01",
@@ -151,7 +161,7 @@
         "type": "conference"
     },
     {
-        "title": "Optimal lottery tickets via subsetsum: Logarithmic over-parameterization is sufficient",
+        "title": "Optimal Lottery Tickets via SubsetSum: Logarithmic Over-Parameterization is Sufficient",
         "authors": "Ankit Pensia, Shashank Rajput, Alliot Nagle, Harit Vishwakarma, Dimitris Papailiopoulos",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2020-06-01",
@@ -175,7 +185,7 @@
         "type": "conference"
     },
     {
-        "title": "Attack of the tails: Yes, you really can backdoor federated learning",
+        "title": "Attack of the Tails: Yes, You Really can Backdoor Federated Learning",
         "authors": "H. Wang, K. Sreenivasan, S. Rajput, H. Vishwakarma, S. Agarwal, J. Sohn, K. Lee, D. Papailiopoulos",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2020-06-01",
@@ -193,7 +203,7 @@
         "type": "conference"
     },
     {
-        "title": "Quantum embedding of knowledge for reasoning",
+        "title": "Quantum Embedding of Knowledge for Reasoning",
         "authors": "D. Garg, S. Ikbal, S. K Srivastava, H. Vishwakarma</span>, H. Karnam, L. V. Subramaniam",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2019-01-01",
