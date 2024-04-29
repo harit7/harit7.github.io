@@ -44,6 +44,10 @@
                 "url": "https://proceedings.mlr.press/v238/vishwakarma24a/vishwakarma24a.pdf"
              },
              {
+                "label":"arXiv",
+                "url":"https://arxiv.org/pdf/2404.16954"
+             },
+             {
                 "label":"Code",
                 "url":"https://github.com/2454511550Lin/TameFalsePositives-OOD"
              },
@@ -51,6 +55,7 @@
                 "label": "Slides",
                 "url": "/assets/pdf/OOD-FPR-2023-ifds-v1.1.pdf"
              }
+
         ]
 
     },
