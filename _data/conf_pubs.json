@@ -1,4 +1,19 @@
-[   {
+[   
+    {
+        "title": "PabLO: Improving Semi-Supervised Learning with Pseudolabeling Optimization",
+        "authors": "Harit Vishwakarma, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi<sup>*</sup>,  Sui Jiet Tay, Ramya Korlakai Vinayak, Frederic Sala",
+        "venue": "Under Review",
+        "date": "2024-05-21",
+        "url":"",
+        "venue_short":"",
+        "type": "preprint",
+      
+        "links": [
+                    
+                ]   
+       },
+
+    {
     "title": "Pearls from Pebbles: Improved Confidence Functions for Auto-labeling",
     "authors": "Harit Vishwakarma, Reid (Yi) Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
     "venue": "Under Review",
@@ -25,9 +40,17 @@
         "authors": "Changho Shin, Jitian Zhao, Sonia Cromp, Harit Vishwakarma, Frederic Sala",
         "venue": "Under Review",
         "date": "2024-01-21",
-        "url":"",
+        "url":"https://arxiv.org/abs/2404.08461",
         "venue_short":"",
-        "type": "preprint"
+        "type": "preprint",
+
+        "links":
+        [
+            { 
+                "label": "arXiv",
+                "url" : "https://arxiv.org/abs/2404.08461"
+             }
+        ]
 
     },
     {
@@ -213,6 +236,10 @@
             {
                 "label": "Paper",
                 "url": "https://proceedings.neurips.cc/paper/2020/file/b8ffa41d4e492f0fad2f13e29e1762eb-Paper.pdf"
+            },
+            {
+                "label":"arXiv",
+                "url" : "https://arxiv.org/pdf/2007.05084"
             },
             { "label" : "Code",
               "url" : "https://github.com/ksreenivasan/OOD_Federated_Learning"
