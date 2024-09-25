@@ -18,10 +18,10 @@
     {
     "title": "Pearls from Pebbles: Improved Confidence Functions for Auto-labeling",
     "authors": "Harit Vishwakarma, Reid (Yi) Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
-    "venue": "Under Review",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "date": "2024-01-21",
     "url":"https://arxiv.org/pdf/2404.16188",
-    "venue_short":"",
+    "venue_short":"NeurIPS",
     "type": "preprint",
   
     "links": [
@@ -40,10 +40,10 @@
     {
         "title": "OTTER: Improving Zero-Shot Classification via Optimal Transport",
         "authors": "Changho Shin, Jitian Zhao, Sonia Cromp, Harit Vishwakarma, Frederic Sala",
-        "venue": "Under Review",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2024-01-21",
         "url":"https://arxiv.org/abs/2404.08461",
-        "venue_short":"",
+        "venue_short":"NeurIPS",
         "type": "preprint",
 
         "links":
