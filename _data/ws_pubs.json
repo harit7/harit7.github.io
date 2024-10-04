@@ -1,7 +1,7 @@
 [
     {
         "title": "ScriptoriumWS: A Code Generation Assistant for Weak Supervision",
-        "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, Harit Vishwakarma, Nicholas Roberts, Frederic Sala",
+        "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, <b>Harit Vishwakarma</b>, Nicholas Roberts, Frederic Sala",
         "venue": "Deep Learning for Code (DL4C) Workshop at ICLR",
         "date": "2023-03-20",
         "links": [
@@ -17,7 +17,7 @@
 
     {
         "title": "An End-to-end Machine Learning Pipeline that Ensures Fairness Policies",
-        "authors": "S. Shaikh, H. Vishwakarma, S. Mehta, K. R. Varshney, K. N. Ramamurthy, D. Wei",
+        "authors": "S. Shaikh, <b>H. Vishwakarma</b>, S. Mehta, K. R. Varshney, K. N. Ramamurthy, D. Wei",
         "venue": "Bloomberg Data for Good Exchange",
         "date": "2017-10-01",
         "links": [
