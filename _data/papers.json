@@ -34,7 +34,7 @@
     {
         "id": "F-12",
         "title": "PabLO: Improving Semi-Supervised Learning with Pseudolabeling Optimization",
-        "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi<sup>*</sup>,  Sui Jiet Tay, Ramya Korlakai Vinayak, Frederic Sala",
+        "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi<sup>*</sup>,  Sui Jiet Tay, Ramya K. Vinayak, Frederic Sala",
         "venue": "Under Review",
         "venue_2": "NeurIPS 2024 workshop on Self-Supervised Learning - Theory and Practice",
         "venue_3": "ICML 2024 Workshop on Data-centric Machine Learning (DMLR)",
