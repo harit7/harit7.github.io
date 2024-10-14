@@ -1,36 +1,5 @@
 [
-    {
-        "title": "ScriptoriumWS: A Code Generation Assistant for Weak Supervision",
-        "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, <b>Harit Vishwakarma</b>, Nicholas Roberts, Frederic Sala",
-        "venue": "Deep Learning for Code (DL4C) Workshop at ICLR",
-        "date": "2023-03-20",
-        "links": [
-            { "label": "Paper",
-              "url" : "https://pages.cs.wisc.edu/~fredsala/ScriptoriumWS.pdf"
-            }
-        ],
-        "url": "https://pages.cs.wisc.edu/~fredsala/ScriptoriumWS.pdf",
-        "venue_short":"ICLR WS",
-        "type": "workshop"
-    },
-    
 
-    {
-        "title": "An End-to-end Machine Learning Pipeline that Ensures Fairness Policies",
-        "authors": "S. Shaikh, <b>H. Vishwakarma</b>, S. Mehta, K. R. Varshney, K. N. Ramamurthy, D. Wei",
-        "venue": "Bloomberg Data for Good Exchange",
-        "date": "2017-10-01",
-        "links": [
-            {
-                "label": "Paper",
-                "url": "https://arxiv.org/pdf/1710.06876.pdf"
-            }
-        ],
-        "url":"https://arxiv.org/pdf/1710.06876.pdf",
-        "venue_short":"Bloomberg D4GX",
-        "type": "workshop"
-
-    }
 
 
 

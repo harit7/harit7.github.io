@@ -1,12 +1,48 @@
 [   
     {
+        "id": "F-14",
+        "title": "Monty Hall and Optimized Conformal Prediction to Improve Decision-Making with LLMs",
+        "authors": "<b>Harit Vishwakarma</b>, Alan Mishler, Thomas Cook, Niccolò Dalmasso, Natraj Raman, Sumitra Ganesh ",
+        "venue": "Under Review",
+
+        "venue_2": "NeurIPS 2024 workshop on Statistical Frontiers in LLMs and Foundation Models",
+        "venue_3": "NeurIPS 2024 Workshop on Open-World Agents",
+        "date": "2024-10-10",
+        "url":"",
+        "venue_short":"",
+        "type": "full_pre",
+    
+        "links": [
+                
+                ]   
+   },
+    {
+        "id": "F-13",
+        "title": "Improving FPR Control in OOD Detection with Learnable Score Functions and Human-in-the-Loop",
+        "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
+        "venue": "Under Review",
+        "date": "2024-10-10",
+        "url":"",
+        "venue_short":"",
+        "type": "full_pre",
+    
+        "links": [
+                
+                ]   
+   }
+    ,
+    {
+        "id": "F-12",
         "title": "PabLO: Improving Semi-Supervised Learning with Pseudolabeling Optimization",
         "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi<sup>*</sup>,  Sui Jiet Tay, Ramya Korlakai Vinayak, Frederic Sala",
         "venue": "Under Review",
+        "venue_2": "NeurIPS 2024 workshop on Self-Supervised Learning - Theory and Practice",
+        "venue_3": "ICML 2024 Workshop on Data-centric Machine Learning (DMLR)",
+
         "date": "2024-05-21",
         "url":"/assets/pdf/pablo-icml-dmlr-ws-2024.pdf",
         "venue_short":"",
-        "type": "preprint",
+        "type": "full_pre",
       
         "links": [
                    { "label": "ICML DMLR Workshop",
@@ -16,35 +52,37 @@
        },
 
     {
-    "title": "Pearls from Pebbles: Improved Confidence Functions for Auto-labeling",
-    "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
-    "venue": "Neural Information Processing Systems (NeurIPS)",
-    "date": "2024-01-21",
-    "url":"https://arxiv.org/pdf/2404.16188",
-    "venue_short":"NeurIPS",
-    "type": "preprint",
-  
-    "links": [
-                {
-                "label": "arXiv",
-                "url": "https://arxiv.org/pdf/2404.16188"  
-                },
+        "id": "F-11",
+        "title": "Pearls from Pebbles: Improved Confidence Functions for Auto-labeling",
+        "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
+        "venue": "Neural Information Processing Systems (NeurIPS)",
+        "date": "2024-01-21",
+        "url":"https://arxiv.org/pdf/2404.16188",
+        "venue_short":"NeurIPS",
+        "type": "full_pub",
+    
+        "links": [
+                    {
+                    "label": "arXiv",
+                    "url": "https://arxiv.org/pdf/2404.16188"  
+                    },
 
-                {
-                    "label": "Slides",
-                    "url": "/assets/pdf/ifds-tbal-colander-1.1.pdf"
-                }
-            ]   
+                    {
+                        "label": "Slides",
+                        "url": "/assets/pdf/ifds-tbal-colander-1.1.pdf"
+                    }
+                ]   
    },
     
     {
+        "id": "F-10",
         "title": "OTTER: Improving Zero-Shot Classification via Optimal Transport",
         "authors": "Changho Shin, Jitian Zhao, Sonia Cromp, <b>Harit Vishwakarma</b>, Frederic Sala",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2024-01-21",
         "url":"https://arxiv.org/abs/2404.08461",
         "venue_short":"NeurIPS",
-        "type": "preprint",
+        "type": "full_pub",
 
         "links":
         [
@@ -55,14 +93,16 @@
         ]
 
     },
+
     {
+        "id": "F-9",
         "title": "Taming False Positives in Out-of-Distribution Detection with Human Feedback",
         "authors": "<b>Harit Vishwakarma</b>, Heguang Lin, Ramya Korlakai Vinayak",
         "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
         "date": "2024-01-19",
         "url":"https://proceedings.mlr.press/v238/vishwakarma24a.html",
         "venue_short":"AISTATS",
-        "type": "conference",
+        "type": "full_pub",
         "links":[
              {
                 "label":"Paper",
@@ -84,7 +124,9 @@
         ]
 
     },
-      {
+      
+    {   
+        "id": "F-8",
         "title": "Promises and Pitfalls of Threshold-based Auto-labeling",
         "authors": "<b>Harit Vishwakarma</b>, Heguang Lin, Frederic Sala, Ramya Korlakai Vinayak",
         "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -124,9 +166,27 @@
         "url":"https://openreview.net/pdf?id=RUCFAKNDb2",
         "venue_short":"NeurIPS",
         "award": "Spotlight",
-        "type": "conference"
+        "type": "full_pub"
     },
+
+    {   "id": "S-2",
+        "title": "ScriptoriumWS: A Code Generation Assistant for Weak Supervision",
+        "authors": "Tzu-Heng Huang, Catherine Cao, Spencer Schoenberg, <b>Harit Vishwakarma</b>, Nicholas Roberts, Frederic Sala",
+        "venue": "Deep Learning for Code (DL4C) Workshop at ICLR",
+        "date": "2023-03-20",
+        "links": [
+            { "label": "Paper",
+              "url" : "https://pages.cs.wisc.edu/~fredsala/ScriptoriumWS.pdf"
+            }
+        ],
+        "url": "https://pages.cs.wisc.edu/~fredsala/ScriptoriumWS.pdf",
+        "venue_short":"ICLR WS",
+        "type": "short"
+    },
+    
+
     {
+        "id": "F-7",
         "title": "Train 'n Trade: Foundations of Parameter Markets",
         "authors": "Tzu-Heng Huang, <b>Harit Vishwakarma</b>,  Frederic Sala",
         "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -151,10 +211,11 @@
          ], 
         "url":"https://openreview.net/pdf?id=4iV26fZPUD",
         "venue_short":"NeurIPS",
-        "type": "conference"
+        "type": "full_pub"
     },
     
     {
+        "id": "F-6",
         "title": "Lifting Weak Supervision To Structured Prediction",
         "authors": "<b>Harit Vishwakarma</b>, Nicholas Roberts, Frederic Sala",
         "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -179,10 +240,11 @@
         ],
         "url": "https://openreview.net/forum?id=Cntmos_Ndf0",
         "venue_short":"NeurIPS",
-        "type": "conference"
+        "type": "full_pub"
     },
 
     {
+        "id": "F-5",
         "title": "Universalizing Weak Supervision",
         "authors": "Changho Shin, Winfred Li, <b>Harit Vishwakarma</b>, Nicholas Roberts, Frederic Sala",
         "venue": "International Conference on Learning Representations (ICLR)",
@@ -203,9 +265,10 @@
         ],
         "url": "https://openreview.net/forum?id=YpPiNigTzMT",
         "venue_short":"ICLR",
-        "type": "conference"
+        "type": "full_pub"
     },
     {
+        "id": "F-4",
         "title": "Optimal Lottery Tickets via SubsetSum: Logarithmic Over-Parameterization is Sufficient",
         "authors": "Ankit Pensia, Shashank Rajput, Alliot Nagle, <b>Harit Vishwakarma</b>, Dimitris Papailiopoulos",
         "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -227,9 +290,10 @@
         ],
         "url": "https://proceedings.neurips.cc/paper/2020/file/1b742ae215adf18b75449c6e272fd92d-Paper.pdf",
         "venue_short":"NeurIPS",
-        "type": "conference"
+        "type": "full_pub"
     },
     {
+        "id": "F-3",
         "title": "Attack of the Tails: Yes, You Really can Backdoor Federated Learning",
         "authors": "H. Wang, K. Sreenivasan, S. Rajput, <b>H. Vishwakarma</b>, S. Agarwal, J. Sohn, K. Lee, D. Papailiopoulos",
         "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -249,9 +313,10 @@
         ],
         "url":"https://proceedings.neurips.cc/paper/2020/file/b8ffa41d4e492f0fad2f13e29e1762eb-Paper.pdf",
         "venue_short":"NeurIPS",
-        "type": "conference"
+        "type": "full_pub"
     },
     {
+        "id": "F-2",
         "title": "Quantum Embedding of Knowledge for Reasoning",
         "authors": "D. Garg, S. Ikbal, S. K Srivastava, <b>H. Vishwakarma</b>, H. Karnam, L. V. Subramaniam",
         "venue": "Neural Information Processing Systems (NeurIPS)",
@@ -269,9 +334,10 @@
         ],
         "url":"https://proceedings.neurips.cc/paper/2019/file/cb12d7f933e7d102c52231bf62b8a678-Paper.pdf",
         "venue_short":"NeurIPS",
-        "type": "conference"
+        "type": "full_pub"
     },
     {
+        "id": "F-1",
         "title": "Know Thy Neighbors, and More! Studying the Role of Context in Entity Recommendation",
         "authors": "Sumit Bhatia, <b>Harit Vishwakarma</b>",
         "venue": "ACM Conference on HyperText and Social Media (HT)",
@@ -285,7 +351,25 @@
         ],
         "url": "https://dl.acm.org/doi/abs/10.1145/3209542.3209548",
         "venue_short":"ACM HT",
-        "type": "conference"
+        "type": "full_pub"
+    },
+
+    {   
+        "id": "S-1",
+        "title": "An End-to-end Machine Learning Pipeline that Ensures Fairness Policies",
+        "authors": "S. Shaikh, <b>H. Vishwakarma</b>, S. Mehta, K. R. Varshney, K. N. Ramamurthy, D. Wei",
+        "venue": "Bloomberg Data for Good Exchange",
+        "date": "2017-10-01",
+        "links": [
+            {
+                "label": "Paper",
+                "url": "https://arxiv.org/pdf/1710.06876.pdf"
+            }
+        ],
+        "url":"https://arxiv.org/pdf/1710.06876.pdf",
+        "venue_short":"Bloomberg D4GX",
+        "type": "short"
+
     }
 
 ]
