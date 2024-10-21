@@ -70,6 +70,10 @@
                     {
                         "label": "Slides",
                         "url": "/assets/pdf/ifds-tbal-colander-1.1.pdf"
+                    },
+                    {
+                        "label": "Code",
+                         "url": "https://github.com/harit7/TBAL-Colander-NeurIPS-24"
                     }
                 ]   
    },
