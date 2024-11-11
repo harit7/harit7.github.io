@@ -57,11 +57,15 @@
         "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2024-01-21",
-        "url":"https://arxiv.org/pdf/2404.16188",
+        "url":"https://openreview.net/pdf?id=96gXvFYWSE",
         "venue_short":"NeurIPS",
         "type": "full_pub",
     
         "links": [
+                    {
+                    "label": "OpenReview",
+                    "url": "https://openreview.net/forum?id=96gXvFYWSE"  
+                    },
                     {
                     "label": "arXiv",
                     "url": "https://arxiv.org/pdf/2404.16188"  
@@ -137,8 +141,8 @@
         "date": "2023-09-21",
         "links": [
               {
-                  "label": "Paper",
-                  "url" : "https://openreview.net/pdf?id=RUCFAKNDb2"
+                  "label": "OpenReview",
+                  "url" : "https://openreview.net/forum?id=RUCFAKNDb2"
             },
             
             {
@@ -197,8 +201,8 @@
         "date": "2023-09-21",
          "links":[
                {
-                     "label":"Paper",
-                     "url":"https://openreview.net/pdf?id=4iV26fZPUD"
+                     "label":"OpenReview",
+                     "url":"https://openreview.net/forum?id=4iV26fZPUD"
                },
                {
                     "label": "Code",
@@ -226,7 +230,7 @@
         "date": "2022-11-24",
         "links": [
             
-            { "label": "Paper",
+            { "label": "OpenReview",
             "url" : "https://openreview.net/forum?id=Cntmos_Ndf0"
             },
 
@@ -242,7 +246,7 @@
                "url" : "https://sprocketlab.github.io/posts/2023/06/lifting-ws/"   
             }
         ],
-        "url": "https://openreview.net/forum?id=Cntmos_Ndf0",
+        "url": "https://openreview.net/pdf?id=Cntmos_Ndf0",
         "venue_short":"NeurIPS",
         "type": "full_pub"
     },
