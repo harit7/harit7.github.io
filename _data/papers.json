@@ -57,11 +57,15 @@
         "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen, Sui Jiet Tay, Srinath Namburi, Frederic Sala, Ramya Korlakai Vinayak",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2024-01-21",
-        "url":"https://openreview.net/pdf?id=96gXvFYWSE",
+        "url":"https://harit7.github.io/colander/",
         "venue_short":"NeurIPS",
         "type": "full_pub",
     
-        "links": [
+        "links": [  
+                    {
+                      "label": "Project",
+                       "url" : "https://harit7.github.io/colander/"   
+                    },
                     {
                     "label": "OpenReview",
                     "url": "https://openreview.net/forum?id=96gXvFYWSE"  
