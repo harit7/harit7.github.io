@@ -88,20 +88,32 @@
     
     {
         "id": "F-10",
-        "title": "OTTER: Improving Zero-Shot Classification via Optimal Transport",
+        "title": "OTTER: Effortless Label Distribution Adaptation of Zero-shot Models",
         "authors": "Changho Shin, Jitian Zhao, Sonia Cromp, <b>Harit Vishwakarma</b>, Frederic Sala",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2024-01-21",
-        "url":"https://arxiv.org/abs/2404.08461",
+        "url":"https://ch-shin.github.io/OTTER/",
         "venue_short":"NeurIPS",
         "type": "full_pub",
 
         "links":
-        [
+        [   
+             {
+               "label":"Project",
+               "url": "https://ch-shin.github.io/OTTER/"  
+             },
+            {
+                "label":"OpenReview",
+                "url":"https://openreview.net/forum?id=RsawwSBCs7"
+            },
             { 
                 "label": "arXiv",
                 "url" : "https://arxiv.org/abs/2404.08461"
-             }
+             },
+            {
+                "label": "Code",
+                 "url" : "https://github.com/SprocketLab/OTTER"
+            }
         ]
 
     },
@@ -143,7 +155,12 @@
         "authors": "<b>Harit Vishwakarma</b>, Heguang Lin, Frederic Sala, Ramya Korlakai Vinayak",
         "venue": "Neural Information Processing Systems (NeurIPS)",
         "date": "2023-09-21",
-        "links": [
+        "links": [ 
+            {
+                "label":"Project",
+                "url":"https://harit7.github.io/TBAL/"
+            }
+            ,
               {
                   "label": "OpenReview",
                   "url" : "https://openreview.net/forum?id=RUCFAKNDb2"
@@ -175,7 +192,7 @@
             }
            
         ],
-        "url":"https://openreview.net/pdf?id=RUCFAKNDb2",
+        "url":"https://harit7.github.io/TBAL/",
         "venue_short":"NeurIPS",
         "award": "Spotlight",
         "type": "full_pub"
