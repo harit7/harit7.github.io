@@ -8,5 +8,16 @@
         "venue_short":"",
         "type": "blog"
 
+    },
+
+    {
+        "title": "Time Uniform Hoeffding Inequality",
+        "authors": "Harit Vishwakarma",
+        //"venue": "Blog pos",
+        "date": "2025-04-16",
+        "url":"/posts/2025/04/time-uniform-hoeffding/",
+        "venue_short":"",
+        "type": "blog"
+
     }
 ]
