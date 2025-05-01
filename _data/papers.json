@@ -18,7 +18,7 @@
         "id": "F-13",
         "title": "Prune 'n Predict: Optimizing LLM Decision-making with Conformal Prediction",
         "authors": "<b>Harit Vishwakarma</b>, Alan Mishler, Thomas Cook, Niccolò Dalmasso, Natraj Raman, Sumitra Ganesh ",
-        "venue": "International Conference on Machine Learning",
+        "venue": "International Conference on Machine Learning (ICML)",
         "date": "2025-05-01",
         "url":"https://harit7.github.io/CROQ/",
         "venue_short":"ICML",
@@ -34,9 +34,9 @@
     
     {
         "id": "F-12",
-        "title": "",
+        "title": "Rethinking Confidence and Thresholds in Pseudolabeling-based SSL",
         "authors": "<b>Harit Vishwakarma<sup>*</sup></b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi,  Sui Jiet Tay, Ramya K. Vinayak, Frederic Sala",
-        "venue": "International Conference on Machine Learning",
+        "venue": "International Conference on Machine Learning (ICML)",
         "date": "2025-05-01",
         "url":"/assets/pdf/pablo-icml-dmlr-ws-2024.pdf",
         "venue_short":"ICML",
