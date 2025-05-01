@@ -22,7 +22,7 @@
         "date": "2025-05-01",
         "url":"https://harit7.github.io/CROQ/",
         "venue_short":"ICML",
-        "type": "full_pre",
+        "type": "full_pub",
     
         "links": [
                    {
@@ -40,7 +40,7 @@
         "date": "2025-05-01",
         "url":"/assets/pdf/pablo-icml-dmlr-ws-2024.pdf",
         "venue_short":"ICML",
-        "type": "full_pre",
+        "type": "full_pub",
       
         "links": [
                    { "label": "ICML DMLR Workshop",
