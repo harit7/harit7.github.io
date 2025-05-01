@@ -1,26 +1,6 @@
 [   
-    {
+        {
         "id": "F-14",
-        "title": "Monty Hall and Optimized Conformal Prediction to Improve Decision-Making with LLMs",
-        "authors": "<b>Harit Vishwakarma</b>, Alan Mishler, Thomas Cook, Niccolò Dalmasso, Natraj Raman, Sumitra Ganesh ",
-        "venue": "Under Review",
-
-        "venue_2": "NeurIPS 2024 workshop on Statistical Frontiers in LLMs and Foundation Models",
-        "venue_3": "NeurIPS 2024 Workshop on Open-World Agents",
-        "date": "2024-10-10",
-        "url":"https://harit7.github.io/CROQ/",
-        "venue_short":"",
-        "type": "full_pre",
-    
-        "links": [
-                   {
-                       "label":"arXiv",
-                       "url": "https://arxiv.org/pdf/2501.00555"
-                   }
-                ]   
-   },
-    {
-        "id": "F-13",
         "title": "Improving FPR Control in OOD Detection with Learnable Score Functions and Human-in-the-Loop",
         "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
         "venue": "Under Review",
@@ -32,19 +12,34 @@
         "links": [
                 
                 ]   
-   }
-    ,
+   },
+    
+    {
+        "id": "F-13",
+        "title": "Prune 'n Predict: Optimizing LLM Decision-making with Conformal Prediction",
+        "authors": "<b>Harit Vishwakarma</b>, Alan Mishler, Thomas Cook, Niccolò Dalmasso, Natraj Raman, Sumitra Ganesh ",
+        "venue": "International Conference on Machine Learning",
+        "date": "2025-05-01",
+        "url":"https://harit7.github.io/CROQ/",
+        "venue_short":"ICML",
+        "type": "full_pre",
+    
+        "links": [
+                   {
+                       "label":"arXiv",
+                       "url": "https://arxiv.org/pdf/2501.00555"
+                   }
+                ]   
+   },
+    
     {
         "id": "F-12",
-        "title": "PabLO: Improving Semi-Supervised Learning with Pseudolabeling Optimization",
-        "authors": "<b>Harit Vishwakarma</b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi<sup>*</sup>,  Sui Jiet Tay, Ramya K. Vinayak, Frederic Sala",
-        "venue": "Under Review",
-        "venue_2": "NeurIPS 2024 workshop on Self-Supervised Learning - Theory and Practice",
-        "venue_3": "ICML 2024 Workshop on Data-centric Machine Learning (DMLR)",
-
-        "date": "2024-05-21",
+        "title": "",
+        "authors": "<b>Harit Vishwakarma<sup>*</sup></b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi,  Sui Jiet Tay, Ramya K. Vinayak, Frederic Sala",
+        "venue": "International Conference on Machine Learning",
+        "date": "2025-05-01",
         "url":"/assets/pdf/pablo-icml-dmlr-ws-2024.pdf",
-        "venue_short":"",
+        "venue_short":"ICML",
         "type": "full_pre",
       
         "links": [
