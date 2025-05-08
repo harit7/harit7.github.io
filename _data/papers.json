@@ -1,16 +1,17 @@
 [   
         {
         "id": "F-14",
-        "title": "Improving FPR Control in OOD Detection with Learnable Score Functions and Human-in-the-Loop",
+        "title": "Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
         "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
         "venue": "Under Review",
-        "date": "2024-10-10",
-        "url":"",
+        "date": "2025-05-05",
+        "url":"https://arxiv.org/pdf/2505.02299",
         "venue_short":"",
         "type": "full_pre",
     
         "links": [
-                
+                  "label":"arXiv",
+                   "url": "https://arxiv.org/pdf/2505.02299"
                 ]   
    },
     
