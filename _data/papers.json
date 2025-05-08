@@ -10,8 +10,10 @@
         "type": "full_pre",
     
         "links": [
-                  "label":"arXiv",
+                  {
+                   "label":"arXiv",
                    "url": "https://arxiv.org/pdf/2505.02299"
+                  }       
                 ]   
    },
     
