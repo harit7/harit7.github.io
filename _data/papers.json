@@ -1,6 +1,6 @@
 [   
         {
-        "id": " S-3",
+        "id": "&nbsp; S-3",
         "title": "Time To Impeach LLM-as-a-Judge: Programs are the Future of Evaluation",
         "authors": "Tzu-Heng Huang,  <b>Harit Vishwakarma</b>, Frederic Sala",
         "venue": "ICML 2025 Workshop on Programmatic Representations for Agent Learning",
@@ -46,7 +46,11 @@
         "venue_short":"ICML",
         "type": "full_pub",
     
-        "links": [
+        "links": [ 
+                   {
+                     "label":"OpenReview",
+                     "url": "https://openreview.net/forum?id=5g6LPR0Dlx"
+                   },
                    {
                        "label":"arXiv",
                        "url": "https://arxiv.org/pdf/2501.00555"
@@ -60,13 +64,14 @@
         "authors": "<b>Harit Vishwakarma<sup>*</sup></b>, Reid (Yi) Chen<sup>*</sup>, Srinath Namburi,  Sui Jiet Tay, Ramya K. Vinayak, Frederic Sala",
         "venue": "International Conference on Machine Learning (ICML)",
         "date": "2025-05-01",
-        "url":"/assets/pdf/pablo-icml-dmlr-ws-2024.pdf",
+        "url":"https://openreview.net/pdf?id=w4c5bLkhsz",
         "venue_short":"ICML",
         "type": "full_pub",
       
         "links": [
-                   { "label": "ICML DMLR Workshop",
-                    "url": "/assets/pdf/pablo-icml-dmlr-ws-2024.pdf"
+                   { 
+                     "label": "OpenReview",
+                    "url": "https://openreview.net/pdf?id=w4c5bLkhsz"
                    }
                 ]   
        },
