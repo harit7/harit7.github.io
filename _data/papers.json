@@ -1,5 +1,24 @@
 [   
         {
+        "id": "S-3",
+        "title": "Time To Impeach LLM-as-a-Judge: Programs are the Future of Evaluation",
+        "authors": "Tzu-Heng Huang,  <b>Harit Vishwakarma</b>, Frederic Sala",
+        "venue": "ICML 2025 Workshop on Programmatic Representations for Agent Learning",
+        "date": "2025-06-05",
+        "url":"https://arxiv.org/pdf/2506.10403",
+        "venue_short":"ICML PRAL WS",
+        "type": "short_pre",
+    
+        "links": [
+                  {
+                   "label":"arXiv",
+                   "url": "https://arxiv.org/pdf/2506.10403"
+                  }       
+                ]   
+      },
+
+        
+        {
         "id": "F-14",
         "title": "Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
         "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
