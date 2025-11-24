@@ -1,5 +1,37 @@
 [   
-        {
+    {
+        "id": "F-16",
+        "title": "Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
+        "authors": "J. Bauer, T. Walshe, D. Pham, <b>H. Vishwakarma</b>, A. Parchami, F. Sala",
+        "venue": "Under Review",
+        "date": "2025-10-31",
+        "url":"",
+        "venue_short":"",
+        "type": "full_pre",
+    
+        "links": [
+                      
+                ]   
+      },
+    {
+        "id": "F-15",
+        "title": "Automating Benchmark Design",
+        "authors": "A. Dsouza, <b>H. Vishwakarma</b>, Z. Qi, J. Bauer, D. Pham, T. Walshe, A. Parchami, F. Sala, P. Varma",
+        "venue": "Under Review",
+        "date": "2025-010-01",
+        "url":"https://arxiv.org/pdf/2510.25039",
+        "venue_short":"",
+        "type": "full_pre",
+    
+        "links": [
+                  {
+                   "label":"arXiv",
+                   "url": "https://arxiv.org/pdf/2510.25039"
+                  }       
+                ]   
+      },
+        
+  {
         "id": "&nbsp; S-3",
         "title": "Time To Impeach LLM-as-a-Judge: Programs are the Future of Evaluation",
         "authors": "Tzu-Heng Huang,  <b>Harit Vishwakarma</b>, Frederic Sala",
