@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Harit Vishwakarma
-email: hvishwakarma@cs.wisc.edu
-description: CS PhD Candidate at UW Madison
+email: harit.vishwakarma@stats.ox.ac.uk
+description: Senior Postdoctoral Research Fellow <br> Dept. of Statistics, University of Oxford
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

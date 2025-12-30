@@ -11,20 +11,15 @@ layout: default
 
       <div class="col-auto">
         <h2>{{ site.title }}</h2>
-        <h6 class="fst-italic">{{ site.description }}</h6>
-        <h6 class="fst-italic text-muted">
+        <h6 class="fst-bold">{{ site.description }}</h6>
+        <h6 class="fst-bold text-muted">
+
           <a href="mailto:{{ site.email }}">
             <span>
               {%- include icons/email.html -%}
             </span>
             <span> {{ site.email }} </span>
           </a>
-        </h6>
-        <h6 class="fst-italic text-muted">
-          <span>
-            {%- include icons/location.html -%}
-          </span>
-          <span>Madison, WI</span>
         </h6>
         {%- include socials.html -%}
       </div>
@@ -36,65 +31,37 @@ layout: default
     <div class="pt-2">
       
         <p class="fs-6">
-           I am a Computer Science PhD candidate at the University of Wisconsin-Madison. I am interested in the foundations of machine learning, artificial intelligence with focus on data efficiency and safety. My advisors are
-           <a href="https://pages.cs.wisc.edu/~fredsala/" target="_blank">
-             <span class="highlight">  Prof. Frederic Sala</span>
-           </a>
-           and  
-           <a href="https://ramyakv.github.io/" target="_blank">
-             <span class="highlight">Prof. Ramya Korlakai Vinayak</span>
-           </a>. Before coming to Madison I was at <a href="https://research.ibm.com/labs/india/" target="_blank"><span class="highlight">IBM Research, Bangalore</span></a> for 3 years. 
-          I spent two wonderful years at the 
-          <a href="https://iisc.ac.in/" target="_blank"><span class="highlight">IISc, Bangalore</span>
-          </a> to obtain a master's in CS, where I worked with   <a href="https://www.csa.iisc.ac.in/~chiru/"> Prof. Chiranjib Bhattacharyya</a>.
+           I am a postdoc working with <a href="https://www.stats.ox.ac.uk/~teh/" target="_blank"> Prof. Yee Whye Teh </a> at Oxford. My current focus is on studying the fundamentals and reliability of modern AI systems (GenAI / LLMs / Agents). Broadly, I am interested in ML foundations, uncertainty, reinforcement learning with focus on data efficiency and reliability. <br>
+
+           <br> 
+
+          I obtained my PhD in Computer Science from University of Wisconsin-Madison, where I was advised by <a href="https://pages.cs.wisc.edu/~fredsala/" target="_blank">Prof. Frederic Sala</a> and <a href="https://ramyakv.github.io/" target="_blank">Prof. Ramya Korlakai Vinayak</a>.
+           
+          Before coming to Madison I was at <a href="https://research.ibm.com/labs/india/" target="_blank">IBM Research, Bangalore</a> and earned a master's in CS from
+          <a href="https://iisc.ac.in/" target="_blank">IISc, Bangalore</a>, where I worked with  <a href="https://mllab.csa.iisc.ac.in/" target="_blank"> Prof. Chiranjib Bhattacharyya</a>.
            
         </p>
       
     </div>
   </div>
 
+  <div> </br> Always open to chat and collaborate! so feel free to reach out :) </div>
 
-  <div class="pt-3">
-    <h5 class="text-capitalize">Research Interests</h5>
-    <div class="pt-2">
-        
-        <ul>
-        <li style="margin-bottom: 10px">
-          Foundations of machine learning, artificial intelligence with focus on data efficiency and safety.
-        </li>
-        <li style="margin-bottom: 10px">
-          Equally enjoy applied/empirical research, building systems, and theoretical research.
-        </li>
-
-        <li style="margin-bottom: 10px">
-          <b>Data efficiency</b>: semi-supervised learning, self-training, active learning, weak supervision.
-        </li>
-
-        <li style="margin-bottom: 10px">
-          <b>AI safety</b>: uncertainty quantification, out-of-distribution robustness, factuality/hallucinations.
-         </li>
-
-         <li style="margin-bottom: 10px">
-           Improving reliability and accuracy of LLMs with test-time compute and statistical inference.
-         </li>
-
-        </ul>
-    </div>
-  </div>
-  
 
   <div class="pt-3" >
     <h5 class="text-capitalize"> News</h5>
     <hr>
     <div style=" height:200px ; overflow: auto" >
     <ul>
-      <li style="margin-bottom: 10px">[05/25] Two papers accepted in ICML!  &#x1F389 &#x1F389. 
+      <li>[11/25] Joined Oxford to do a postdoc.</li>
+      <li>[07/25] Interning at <a href="https://snorkel.ai/"> Snorkel AI</a> studying RLVR, automating benchmark design and spatial reasoning.</li>
+      <li style="margin-bottom: 10px">[07/25] Presented Two papers accepted in ICML. Thanks ICML for the travel award.
         <ul>
-        <li> On principled methods for confidence scores and thresholds estimation for <a href="https://openreview.net/pdf?id=w4c5bLkhsz" >pseudolabeling-based SSL</a>.</li>
+        <li> On principled methods for confidence and thresholds estimation for <a href="https://openreview.net/pdf?id=w4c5bLkhsz" >pseudolabeling-based SSL</a>.</li>
         <li> Improving <a href = "https://openreview.net/forum?id=5g6LPR0Dlx">language model inference</a> using conformal prediction and test-time scaling.</li>
         </ul>
       </li>
-      <li style="margin-bottom: 10px">[04/25] Defended my Ph.D. Thesis. All set to graduate, yaay!! </li>
+      <li style="margin-bottom: 10px">[05/25] Graduated with my PhD, yaay!! </li>
       <li style="margin-bottom: 10px">[01/25] Invited talk on <b>Reliable AI: From Data to Deployment</b> at Microsoft Research, Vancouver.</li>
       <li style="margin-bottom: 10px">[12/24] Excited to be at NeurIPS! Presenting works on <a href="https://harit7.github.io/colander/"> improving confidence scores</a> for auto-labeling and improving <a href=""> LLM's decision making </a> with conformal prediction and test-time compute.
       <li style="margin-bottom: 10px">[07/24] Papers on  <a href = "https://x.com/harit_v/status/1817088397275496673">auto-labeling </a> and <a href="https://x.com/harit_v/status/1817130887714066891">pseudo-labeling based SSL</a> in the DMLR workshop</a> at ICML. </li>
@@ -126,7 +93,6 @@ layout: default
 
    </div>
 
-  <div> </br> Checkout my work with amazing collaborators. I'd love to know any feedback you might have on any of these works. Always open to chat and collaborate! so feel free to reach out :) </div>
 
   <div class="pt-3">
     
@@ -265,9 +231,9 @@ layout: default
       
       <ul>
   <li> I was TA for, 
-     <ul>1. CS 761, advanced course on Mathematical Foundations of ML, Instructor  <a href="https://nowak.ece.wisc.edu/"> Prof. Rob Nowak</a>, [Spring, 22].
+     <ul>1. CS 761, advanced course on Mathematical Foundations of ML, Instructor  <a href="https://nowak.ece.wisc.edu/" target="_blank"> Prof. Rob Nowak</a>, [Spring, 22].
 I helped with homeworks, exams, held office hours and gave a lecture on uniform convergence results for finite hypothesis class.</ul>
-     <ul>2. CS 760, grad level intro to ML course, Instructor  <a href="">Prof. Fred Sala</a>, [Fall, 21  ]. I helped with homeworks, exams and held office hours.</ul>
+     <ul>2. CS 760, grad level intro to ML course, Instructor  <a href="https://pages.cs.wisc.edu/~fredsala/" target="_blank">Prof. Fred Sala</a>, [Fall, 21 ]. I helped with homeworks, exams and held office hours.</ul>
     
      <li> I have taught students at various levels in my village during my high school, 
      partly to support my education and with the hope to get them interested. 
@@ -287,11 +253,11 @@ I helped with homeworks, exams, held office hours and gave a lecture on uniform 
       
       <ul>
   <li> I enjoy sports/athletic activities. My current preference order is, <br>
-     swimming <span style="font-size: 27px;">&#x1F3CA;&#x1F3FD;&#x200D;&#x2642;&#xFE0F; </span> $\succ$ badminton <span style="font-size: 20px;">&#127992;</span> $\succ$ racquetball $\succ$ running <span style="font-size: 20px;">&#x1F3C3;&#x1F3FE;&#x200D;&#x2642;&#xFE0F; </span> $\succ$ biking <span style="font-size: 20px;">&#x1F6B4;&#x1F3FD;&#x200D;&#x2642; </span> .
+    Badminton $\succ$ Tennis  $\succ$ Swimming $\succ$  Racquetball/Squash $\succ$ Running $\succ$ Biking.
   </li>
   <li> I like reading Indian philosophy and Hindi poetry (e.g. Kabir). 
   </li>
-
+   <li>Feel free to reach out for any of these activities :)</li>
   <p style="margin:10px;"></p>
     </div>
   </div>
