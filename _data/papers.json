@@ -3,11 +3,11 @@
         "id": "F-16",
         "title": "Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
         "authors": "J. Bauer, T. Walshe, D. Pham, <b>H. Vishwakarma</b>, A. Parchami, F. Sala",
-        "venue": "Under Review",
-        "date": "2025-10-31",
+        "venue": "Conference on Machine Learning and Systems",
+        "date": "2026-01-28",
         "url":"",
-        "venue_short":"",
-        "type": "full_pre",
+        "venue_short":"MLSys",
+        "type": "full_pub",
     
         "links": [
                       
