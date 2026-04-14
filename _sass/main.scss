@@ -83,9 +83,9 @@ a {
 
 // Circular avatar with subtle shadow
 .avatar {
-  height: 220px;
-  width: 195px;
-  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  border-radius: 8px;
   border: 0rem solid $primary;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   object-fit: cover;
