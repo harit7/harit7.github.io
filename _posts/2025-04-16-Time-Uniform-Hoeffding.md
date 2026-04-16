@@ -35,6 +35,10 @@ where, $$\psi_2(t,\delta) = \psi_1(t, \frac{\delta}{T})  = \sqrt{\frac{1}{2t} \l
 
 OK, we have made some progress with union bound. Our new confidence interval $\psi_2(\delta, t)$ is simultaneously valid for a range of $0<t \le T$. But we are still far from what we originally wanted. Recall, we want $\psi(t,\delta)$ that is simultaneously valid for all $t>0$.
 
+Before moving on, let's *see* this concretely. The figure below shows sample paths of $\|\hat p_t - p\|$ for $p=0.5$ along with the naive single-$t$ bound $\psi_1(t,\delta)$ and our eventual time-uniform bound $\psi(t,\delta)$ at $\delta=0.05$. The red curve is the naive one — notice that several grey sample paths poke *above* it at various times, even though each individual time point has only $5\%$ failure probability. That is exactly the any-time validity issue we are trying to fix.
+
+<img width="100%" src="/images/blogposts/time-uniform-hoeffding/fig1_sample_paths.png" />
+
 **Attempt 3: Naive generalization of Attempt 2.**
 Caution: It is tempting to make a mistake and apply the above bound by replacing $T$ with $t$. Lets see how will this unfold: we are saying, $\psi(t,\delta) = \sqrt{\frac{1}{2t} \log(\frac{2t}{\delta})}$ is valid simultaneously for all $t>0$. It is not hard to see that $\psi(t,\delta) \to 0$ as  $t\to \infty$. So this bound is sensible, however there is a big issue. The overall failure probability is no longer bounded. How? 
 
@@ -65,6 +69,12 @@ $$P \Big( \forall t >0 \quad |\hat{p}_t - p| \le \psi(t,\delta) \Big) \ge 1-\del
 where $\psi(t,\delta) = \sqrt{\frac{1}{t}\log(\frac{12t}{\pi^2 \delta })} < \sqrt{\frac{1}{t}\log(\frac{2t}{ \delta })}$
 
 There we go! we have a nice simple time uniform Hoeffding bound that we were looking for.
+
+**Does it actually hold up in simulation?** We ran $2000$ independent Bernoulli streams with $p=0.5$, and for each horizon $T$ we computed the empirical probability that $|\hat p_t - p|$ ever exceeded the bound at some $t \le T$.
+
+<img width="100%" src="/images/blogposts/time-uniform-hoeffding/fig2_failure_rate.png" />
+
+The naive single-$t$ bound, applied at every $t$, blows past the nominal $\delta=0.05$ very quickly and keeps growing (final empirical failure rate $\approx 0.16$ at $T=20000$ — and of course it will keep rising). The time-uniform bound, in contrast, sits flat at $0$ over the full horizon: not a single run out of $2000$ ever crossed it. That's the any-time guarantee in action.
 
 **Remark 1.** The same technique can be applied to more general concentration inequalities e.g., Azuma-Hoeffding, DKW etc. to obtain their time uniform versions.
 

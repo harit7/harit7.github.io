@@ -8,6 +8,10 @@
     "link" : "/resources"
   },
   {
+    "label": "Fun",
+    "link" : "/fun/"
+  },
+  {
     "label": "CV",
     "link" : "/assets/pdf/Harit_CV.pdf"
   }
