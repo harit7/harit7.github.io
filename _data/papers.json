@@ -10,7 +10,10 @@
         "type": "full_pub",
     
         "links": [
-                      
+                     {
+                         "label":"arXiv",
+                         "url": "https://arxiv.org/abs/2604.18381"
+                     } 
                 ]   
       },
     {
