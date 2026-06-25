@@ -57,10 +57,10 @@
         "id": "F-14",
         "title": "Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
         "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
-        "venue": "Under Review",
+        "venue": "Transactions on Machine Learning Research",
         "date": "2025-05-05",
         "url":"https://arxiv.org/pdf/2505.02299",
-        "venue_short":"",
+        "venue_short":"TMLR",
         "type": "full_pre",
     
         "links": [
