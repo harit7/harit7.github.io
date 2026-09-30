@@ -1,19 +1,99 @@
-[   
+[
+    
+
+    {
+        "id": "F-18",
+        "title": "Paperena: Reliable Science from Unreliable AI",
+        "authors": "<b>Harit Vishwakarma</b>, Amit Vishwakarma, Klara Kaleb, Iacopo Ghinassi, T. Duy Nguyen-Hien, Sahel Iqbal, Eleanor Trollope, Quan Pham, Zhi Zheng, Shaurya Agrawal, Frederic Sala, Luke Ong, Wee Sun Lee, Yee Whye Teh",
+        "venue": "AI for Science Workshop at NeurIPS",
+        "date": "2026-09-29",
+        "url":"/assets/pdf/paperena-neurips26-ai4science-ws.pdf",
+        "venue_short":"NeurIPS AI4Science WS",
+        "type": "full_pub",
+
+        "links": [
+                  {
+                   "label":"PDF",
+                   "url": "/assets/pdf/paperena-neurips26-ai4science-ws.pdf"
+                  }
+                ]
+      },
+
+    {
+        "id": "F-17",
+        "title": "Don't Be Choosy: Scoring over Choosing for Verbalized LLM Confidence",
+        "authors": "<b>Harit Vishwakarma</b>, Klara Kaleb, Yee Whye Teh",
+        "venue": "Third Workshop on Uncertainty-Aware NLP (UncertaiNLP) at EMNLP",
+        "date": "2026-09-29",
+        "url":"/assets/pdf/pairscore-emnlp26-uncertainlp-ws.pdf",
+        "venue_short":"EMNLP UncertaiNLP WS",
+        "type": "full_pub",
+
+        "links": [
+                  {
+                   "label":"PDF",
+                   "url": "/assets/pdf/pairscore-emnlp26-uncertainlp-ws.pdf"
+                  }
+                ]
+      },
+
+    {
+        "id": "S-4",
+        "title": "PRIOR: Inspectable Contribution Maps for Scientific Synthesis",
+        "authors": "Klara Kaleb, <b>Harit Vishwakarma</b>, Callum Young, Yee Whye Teh",
+        "venue": "Under Review",
+        "date": "2026-09-30",
+        "url":"#",
+        "venue_short":"",
+        "type": "short"
+      },
+
+    {
+        "id": "F-14",
+        "title": "Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
+        "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
+        "venue": "Neural Information Processing Systems (NeurIPS), Journal-to-Conference Track (accepted at TMLR 2026)",
+        "date": "2026-09-29",
+        "url":"https://openreview.net/forum?id=4Kd0VMsL76",
+        "venue_short":"NeurIPS",
+        "type": "full_pub",
+
+        "links": [
+                  {
+                   "label":"OpenReview (TMLR)",
+                   "url": "https://openreview.net/forum?id=4Kd0VMsL76"
+                  },
+                  {
+                   "label":"arXiv",
+                   "url": "https://arxiv.org/pdf/2505.02299"
+                  }
+                ]
+   },
+   
     {
         "id": "F-16",
         "title": "Learning from Less: Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
         "authors": "J. Bauer, T. Walshe, D. Pham, <b>H. Vishwakarma</b>, A. Parchami, F. Sala, P. Varma",
         "venue": "Conference on Machine Learning and Systems (MLSys)",
         "date": "2026-01-28",
-        "url":"https://arxiv.org/abs/2604.18381",
+        "url":"https://mlsys.org/virtual/2026/oral/3783",
         "venue_short":"MLSys",
         "type": "full_pub",
+        "award": "Oral",
     
         "links": [
                      {
+                         "label":"MLSys",
+                         "url": "https://mlsys.org/virtual/2026/oral/3783"
+                     },
+                     {
+                         "label":"Slides",
+                         "url": "https://mlsys.org/media/mlsys-2026/Slides/3783.pdf"
+                     },
+                     {
                          "label":"arXiv",
                          "url": "https://arxiv.org/abs/2604.18381"
-                     } 
+                     }
                 ]   
       },
     {
@@ -53,23 +133,7 @@
       },
 
         
-        {
-        "id": "F-14",
-        "title": "Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
-        "authors": "Daisuke Yamada,  <b>Harit Vishwakarma</b>, Ramya Korlakai Vinayak",
-        "venue": "Transactions on Machine Learning Research",
-        "date": "2025-05-05",
-        "url":"https://arxiv.org/pdf/2505.02299",
-        "venue_short":"TMLR",
-        "type": "full_pre",
-    
-        "links": [
-                  {
-                   "label":"arXiv",
-                   "url": "https://arxiv.org/pdf/2505.02299"
-                  }       
-                ]   
-   },
+        
     
     {
         "id": "F-13",

@@ -9,7 +9,8 @@
   },
   {
     "label": "Fun",
-    "link" : "/fun/"
+    "link" : "/fun/",
+    "hidden": true
   },
   {
     "label": "CV",

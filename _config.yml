@@ -22,6 +22,9 @@ title: Harit Vishwakarma
 email: harit.vishwakarma@stats.ox.ac.uk
 description: Senior Postdoctoral Research Fellow <br> Dept. of Statistics, University of Oxford
 
+# Paperena interest form (Google Form). Leave empty until it exists; the callout then links to paperena.ai.
+paperena_form_url: "https://docs.google.com/forms/d/e/1FAIpQLScV-x-XHfmuwztFI26DICx-a49KpDYjmYLR1JcJSXyC-3WAVw/viewform"
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -46,6 +49,7 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - CLAUDE.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins

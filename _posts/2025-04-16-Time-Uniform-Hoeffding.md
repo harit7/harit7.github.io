@@ -11,7 +11,7 @@ authors: "<a href='https://harit7.github.io/'>Harit Vishwakarma</a>"
 ---
 
 Suppose we have a coin with bias $p$. We toss it over time and each time we observe $X_t$, which is $1$ with probability $p$ and $0$ with probability $1-p$. Our running estimate of the bias is 
-$$\hat{p}_t = \frac{1}{t} \sum_{i=1}^t X_t$$. We wish to get a confidence interval $\psi(t,\delta)$ on $\hat{p}_t$ that is valid *simultaneously* for all $t>0$. 
+$$\hat{p}_t = \frac{1}{t} \sum_{i=1}^t X_i$$. We wish to get a confidence interval $\psi(t,\delta)$ on $\hat{p}_t$ that is valid *simultaneously* for all $t>0$. 
 
 $$P \Big( \forall t >0 \quad |\hat{p}_t - p| \le \psi(t,\delta) \Big) \ge 1-\delta$$
 
@@ -61,12 +61,12 @@ $$\delta + \frac{\delta}{4} + \ldots + \frac{\delta}{t^2} + \ldots = \delta \sum
 Detour: Finding the summation $\sum_{t=1}^\infty \frac{1}{t^2}$ exactly is known as the [Basel Problem](https://en.wikipedia.org/wiki/Basel_problem). Thanks to Euler, we don't have to solve this summation. He showed that it is equal to $\pi^2/6$.
 
 This is exciting! we finally have a sequence of failure probabilities, in other words a sequence of confidence intervals that works simultaneously for all $t>0$. How does our $\psi(t,\delta)$ look like now, 
-$$\psi(t,\delta) = \sqrt{\frac{1}{2t} \log(\frac{12 t^2}{\pi^2 \delta})} = \sqrt{\frac{1}{t}\log(\frac{12t}{\pi^2 \delta })}$$
+$$\psi(t,\delta) = \sqrt{\frac{1}{2t} \log\Big(\frac{\pi^2 t^2}{3 \delta}\Big)} \le \sqrt{\frac{1}{t}\log\Big(\frac{2t}{\delta}\Big)}$$
 
 
 $$P \Big( \forall t >0 \quad |\hat{p}_t - p| \le \psi(t,\delta) \Big) \ge 1-\delta$$
 
-where $\psi(t,\delta) = \sqrt{\frac{1}{t}\log(\frac{12t}{\pi^2 \delta })} < \sqrt{\frac{1}{t}\log(\frac{2t}{ \delta })}$
+where $\psi(t,\delta) = \sqrt{\frac{1}{2t}\log\big(\frac{\pi^2 t^2}{3 \delta}\big)} \le \sqrt{\frac{1}{t}\log\big(\frac{2t}{ \delta }\big)}$
 
 There we go! we have a nice simple time uniform Hoeffding bound that we were looking for.
 

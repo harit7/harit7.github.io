@@ -15,11 +15,11 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             
               {% for menu in site.data.menu %}
-                
+                {% unless menu.hidden %}
                   <a class="nav-link" href="{{ menu.link }}">
                     <span class="navbar-menu">{{ menu.label }}</span>
                   </a>
-                
+                {% endunless %}
               {% endfor %}
             
           </div>

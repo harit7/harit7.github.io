@@ -115,10 +115,8 @@ a {
   display: inline-block;
 }
 
-// News scrollable area
+// News box (recent items visible, older ones behind a toggle)
 .news-scroll {
-  height: 200px;
-  overflow: auto;
   border: 1px solid rgba($primary, 0.06);
   border-radius: 6px;
   padding: 0.5rem 0;
@@ -150,6 +148,33 @@ a {
   > li + li {
     margin-top: 0.35rem;
   }
+}
+
+// "Older news" toggle (native <details>, no JS)
+.news-more {
+  margin-top: 0.35rem;
+
+  > summary {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: $light-blue;
+    padding: 0.35rem 0.75rem 0.35rem 1rem;
+    margin-left: 0.5rem;
+  }
+
+  > .news-list {
+    margin-top: 0.35rem;
+  }
+}
+
+// Callout (used for the Paperena line under About Me)
+.callout {
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid $light-blue;
+  border-radius: 4px;
+  background: rgba($light-blue, 0.04);
+  font-size: 0.95rem;
+  line-height: 1.55;
 }
 
 // Publication badges

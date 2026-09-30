@@ -45,16 +45,33 @@ layout: default
     </div>
   </div>
 
-  <div> <br> Always open to chat and collaborate! so feel free to reach out :) </div>
+  <!-- Paperena callout. Form URL comes from _config.yml (paperena_form_url). -->
+  <div class="callout mt-3">
+    <b><a href="https://paperena.ai/">Paperena</a>.</b>
+    We're building the evaluation infrastructure science will need once AI writes most of its papers:
+    a place to record AI-produced research, check it carefully, and surface the work worth an expert's time.
+    It's early, and we're looking for people who want to try it or help shape it.
+    <a href="{{ site.paperena_form_url | default: 'https://paperena.ai/' }}" target="_blank">Get in touch</a>.
+  </div>
 
 
   <div class="pt-3">
     <h5 class="section-heading"> News</h5>
     <div class="news-scroll">
     <ul class="news-list">
+      <li>[10/26] Excited to be at the <a href="https://simons.berkeley.edu/workshops/trustworthy-ai-hallucinations-reliable-autonomy/schedule#simons-tabs">Trustworthy AI: From Hallucinations to Reliable Autonomy</a> workshop at the Simons Institute, Berkeley.</li>
+      <li>[10/26] Presenting <a href="https://paperena.ai/">Paperena</a> at the <a href="https://www.frontierdatasummit.ai/posters/">Frontier Data Summit</a> (Snorkel AI), San Francisco.</li>
+      <li>[08/26] Talk on Paperena at the <a href="https://ai-scientist-workshop.github.io/">AI Scientist Summer Workshop</a>, Microsoft Research New England.</li>
+      <li>[06/26] Co-organized the <a href="https://agents4academia.org/events/2026-oxford-sg/">Agents4Academia hackathon</a> across Oxford, NUS and NTU: two weeks of building open-source agents for the academic research workflow, supported by Anthropic.</li>
       <li>[02/26] Had fun giving a lecture on LLM Post-Training at the Intelligent Earth Center for Doctoral Training, Oxford.</li>
-      <li>[01/26] Paper on measuring the effectiveness of RLVR in low resource settings accepted at MLSys 2026!</li>
-      <li>[01/26] Co-organizing AIR-FM workshop at AAAI 2026, Singapore. Lots of interesting works and discussions on reliability of frontier AI.</li>
+    </ul>
+
+    <!-- Older news: collapsed by default, expanded via the "Older news" toggle. -->
+    <details class="news-more">
+      <summary>Older news</summary>
+      <ul class="news-list">
+      <li>[01/26] <a href="https://arxiv.org/abs/2604.18381">Learning from Less</a>, our paper on the effectiveness of RLVR in low-resource settings, accepted at MLSys 2026!</li>
+      <li>[01/26] Co-organizing <a href="https://llmrel.github.io/">AIR-FM workshop</a> at AAAI 2026, Singapore. Lots of interesting works and discussions on reliability of frontier AI.</li>
       <li>[11/25] Joined Oxford to do a postdoc.</li>
       <li>[07/25] Interning at <a href="https://snorkel.ai/"> Snorkel AI</a> studying RLVR, automating benchmark design and spatial reasoning.</li>
       <li>[07/25] Presented two papers at ICML. Thanks ICML for the travel award.
@@ -90,8 +107,9 @@ layout: default
     <li>[06/23]  New blog post on <a href="/posts/2023/06/lifting-ws/">aggregating LLM or foundation model objects</a> using weak supervision.
     </li>
 
-  </ul>
-</div>
+      </ul>
+    </details>
+    </div>
 
    </div>
 
@@ -165,6 +183,17 @@ layout: default
     <h5 class="section-heading">Service</h5>
     <div class="pt-2">
 
+        <p>
+           Co-organized,
+           <ul class="service-list">
+  <li> <a href="https://agents4academia.org/events/2026-oxford-sg/">Agents4Academia Oxford&ndash;Singapore Hackathon</a> <br>
+    Oxford Statistics, NUS and NTU, June 2026. Supported by Anthropic.
+  </li>
+  <li> <a href="https://llmrel.github.io/">AIR-FM: Assessing and Improving Reliability of Foundation Models in the Real World</a> <br>
+    Workshop at AAAI 2026, Singapore.
+  </li>
+</ul>
+        </p>
         <p>
            Served as a reviewer for,
            <ul class="service-list">

@@ -1,15 +1,14 @@
 <footer class="site-footer">
   <div class="footer-main text-center pt-4 pb-2">
+    <!-- Social links and the credit line are centred independently: the flex wrapper
+         centres the socials row; the credit line is a full-width text-centred block. -->
     <div class="d-flex justify-content-center">
-      <div>
-        {%- include socials.html -%}
-        <div class="pt-3">
-          <h6>
-            Web page credits to my younger brother <a href="https://www.linkedin.com/in/amitvishw/">Amit Vishwakarma</a> (SWE). 
-
-          </h6>
-        </div>
-      </div>
+      {%- include socials.html -%}
+    </div>
+    <div class="pt-3">
+      <h6>
+        Web page credits to my younger brother <a href="https://www.linkedin.com/in/amitvishw/">Amit Vishwakarma</a> (SWE).
+      </h6>
     </div>
   </div>
 </footer>
